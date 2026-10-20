@@ -1,0 +1,370 @@
+{
+  "status": "complete",
+  "micro": {
+    "vision_only": {
+      "recall_0.1m": 0.14741847826086957,
+      "recall_0.5m": 0.4313858695652174,
+      "recall_1m": 0.4592391304347826,
+      "recall_1m_30deg": 0.4476902173913043,
+      "yaw_within_10deg": 0.5360054347826086,
+      "yaw_within_30deg": 0.5516304347826086,
+      "yaw_within_50deg": 0.561141304347826,
+      "median_xy_m": 2.284664848197597,
+      "median_yaw_deg": 5.0,
+      "repair": 0,
+      "harm": 0
+    },
+    "acoustic_only": {
+      "recall_0.1m": 0.029891304347826088,
+      "recall_0.5m": 0.171875,
+      "recall_1m": 0.2425271739130435,
+      "recall_1m_30deg": 0.08016304347826086,
+      "yaw_within_10deg": 0.12364130434782608,
+      "yaw_within_30deg": 0.23301630434782608,
+      "yaw_within_50deg": 0.3138586956521739,
+      "median_xy_m": 4.39317652729776,
+      "median_yaw_deg": 90.0,
+      "repair": 136,
+      "harm": 455
+    },
+    "equal_weight_fusion": {
+      "recall_0.1m": 0.10461956521739131,
+      "recall_0.5m": 0.4232336956521739,
+      "recall_1m": 0.45991847826086957,
+      "recall_1m_30deg": 0.44021739130434784,
+      "yaw_within_10deg": 0.47078804347826086,
+      "yaw_within_30deg": 0.5536684782608695,
+      "yaw_within_50deg": 0.5706521739130435,
+      "median_xy_m": 1.8069263326797387,
+      "median_yaw_deg": 15.0,
+      "repair": 234,
+      "harm": 233
+    },
+    "visual_topk_acoustic_rerank": {
+      "recall_0.1m": 0.08763586956521739,
+      "recall_0.5m": 0.46127717391304346,
+      "recall_1m": 0.5122282608695652,
+      "recall_1m_30deg": 0.48709239130434784,
+      "yaw_within_10deg": 0.5543478260869565,
+      "yaw_within_30deg": 0.5889945652173914,
+      "yaw_within_50deg": 0.5978260869565217,
+      "median_xy_m": 0.8154234499766928,
+      "median_yaw_deg": 10.0,
+      "repair": 258,
+      "harm": 180
+    }
+  },
+  "per_scene": {
+    "104862687_172226883": {
+      "vision_only": {
+        "recall_0.1m": 0.16598360655737704,
+        "recall_0.5m": 0.5778688524590164,
+        "recall_1m": 0.6270491803278688,
+        "recall_1m_30deg": 0.6168032786885246,
+        "median_xy_m": 0.31622776601683766,
+        "median_yaw_deg": 5.0,
+        "repair": 0,
+        "harm": 0,
+        "preserve_success": 306,
+        "preserve_failure": 182,
+        "yaw_within_10deg": 0.6659836065573771,
+        "yaw_within_30deg": 0.6741803278688525,
+        "yaw_within_50deg": 0.6741803278688525
+      },
+      "acoustic_only": {
+        "recall_0.1m": 0.03483606557377049,
+        "recall_0.5m": 0.32786885245901637,
+        "recall_1m": 0.4487704918032787,
+        "recall_1m_30deg": 0.15368852459016394,
+        "median_xy_m": 1.2165525060596445,
+        "median_yaw_deg": 90.0,
+        "repair": 64,
+        "harm": 151,
+        "preserve_success": 155,
+        "preserve_failure": 118,
+        "yaw_within_10deg": 0.1290983606557377,
+        "yaw_within_30deg": 0.24385245901639344,
+        "yaw_within_50deg": 0.3237704918032787
+      },
+      "equal_weight_fusion": {
+        "recall_0.1m": 0.11885245901639344,
+        "recall_0.5m": 0.6331967213114754,
+        "recall_1m": 0.680327868852459,
+        "recall_1m_30deg": 0.6618852459016393,
+        "median_xy_m": 0.2999999999999998,
+        "median_yaw_deg": 5.0,
+        "repair": 83,
+        "harm": 57,
+        "preserve_success": 249,
+        "preserve_failure": 99,
+        "yaw_within_10deg": 0.6270491803278688,
+        "yaw_within_30deg": 0.7213114754098361,
+        "yaw_within_50deg": 0.7274590163934426
+      },
+      "visual_topk_acoustic_rerank": {
+        "recall_0.1m": 0.06762295081967214,
+        "recall_0.5m": 0.6086065573770492,
+        "recall_1m": 0.6721311475409836,
+        "recall_1m_30deg": 0.6516393442622951,
+        "median_xy_m": 0.3383914467816186,
+        "median_yaw_deg": 5.0,
+        "repair": 76,
+        "harm": 54,
+        "preserve_success": 252,
+        "preserve_failure": 106,
+        "yaw_within_10deg": 0.6598360655737705,
+        "yaw_within_30deg": 0.7090163934426229,
+        "yaw_within_50deg": 0.7131147540983607
+      }
+    },
+    "105515301_173104305": {
+      "vision_only": {
+        "recall_0.1m": 0.1574074074074074,
+        "recall_0.5m": 0.36342592592592593,
+        "recall_1m": 0.3773148148148148,
+        "recall_1m_30deg": 0.36342592592592593,
+        "median_xy_m": 4.283091991687771,
+        "median_yaw_deg": 85.0,
+        "repair": 0,
+        "harm": 0,
+        "preserve_success": 163,
+        "preserve_failure": 269,
+        "yaw_within_10deg": 0.45601851851851855,
+        "yaw_within_30deg": 0.4722222222222222,
+        "yaw_within_50deg": 0.4861111111111111
+      },
+      "acoustic_only": {
+        "recall_0.1m": 0.03935185185185185,
+        "recall_0.5m": 0.09953703703703703,
+        "recall_1m": 0.12731481481481483,
+        "recall_1m_30deg": 0.03935185185185185,
+        "median_xy_m": 7.242237223399964,
+        "median_yaw_deg": 90.0,
+        "repair": 31,
+        "harm": 139,
+        "preserve_success": 24,
+        "preserve_failure": 238,
+        "yaw_within_10deg": 0.125,
+        "yaw_within_30deg": 0.19907407407407407,
+        "yaw_within_50deg": 0.2800925925925926
+      },
+      "equal_weight_fusion": {
+        "recall_0.1m": 0.10416666666666667,
+        "recall_0.5m": 0.2847222222222222,
+        "recall_1m": 0.3125,
+        "recall_1m_30deg": 0.2824074074074074,
+        "median_xy_m": 5.008487190806888,
+        "median_yaw_deg": 80.0,
+        "repair": 56,
+        "harm": 84,
+        "preserve_success": 79,
+        "preserve_failure": 213,
+        "yaw_within_10deg": 0.3194444444444444,
+        "yaw_within_30deg": 0.40046296296296297,
+        "yaw_within_50deg": 0.4212962962962963
+      },
+      "visual_topk_acoustic_rerank": {
+        "recall_0.1m": 0.10648148148148148,
+        "recall_0.5m": 0.3541666666666667,
+        "recall_1m": 0.39351851851851855,
+        "recall_1m_30deg": 0.36342592592592593,
+        "median_xy_m": 3.308322061206339,
+        "median_yaw_deg": 60.0,
+        "repair": 74,
+        "harm": 67,
+        "preserve_success": 96,
+        "preserve_failure": 195,
+        "yaw_within_10deg": 0.44907407407407407,
+        "yaw_within_30deg": 0.4861111111111111,
+        "yaw_within_50deg": 0.4930555555555556
+      }
+    },
+    "104862417_172226382": {
+      "vision_only": {
+        "recall_0.1m": 0.12318840579710146,
+        "recall_0.5m": 0.35507246376811596,
+        "recall_1m": 0.375,
+        "recall_1m_30deg": 0.3641304347826087,
+        "median_xy_m": 4.694140183760226,
+        "median_yaw_deg": 25.0,
+        "repair": 0,
+        "harm": 0,
+        "preserve_success": 207,
+        "preserve_failure": 345,
+        "yaw_within_10deg": 0.483695652173913,
+        "yaw_within_30deg": 0.5054347826086957,
+        "yaw_within_50deg": 0.519927536231884
+      },
+      "acoustic_only": {
+        "recall_0.1m": 0.018115942028985508,
+        "recall_0.5m": 0.09057971014492754,
+        "recall_1m": 0.1503623188405797,
+        "recall_1m_30deg": 0.04710144927536232,
+        "median_xy_m": 7.178405338041908,
+        "median_yaw_deg": 90.0,
+        "repair": 41,
+        "harm": 165,
+        "preserve_success": 42,
+        "preserve_failure": 304,
+        "yaw_within_10deg": 0.11775362318840579,
+        "yaw_within_30deg": 0.25,
+        "yaw_within_50deg": 0.33152173913043476
+      },
+      "equal_weight_fusion": {
+        "recall_0.1m": 0.09239130434782608,
+        "recall_0.5m": 0.34601449275362317,
+        "recall_1m": 0.3804347826086957,
+        "recall_1m_30deg": 0.3677536231884058,
+        "median_xy_m": 4.530995703482237,
+        "median_yaw_deg": 20.0,
+        "repair": 95,
+        "harm": 92,
+        "preserve_success": 115,
+        "preserve_failure": 250,
+        "yaw_within_10deg": 0.45108695652173914,
+        "yaw_within_30deg": 0.5253623188405797,
+        "yaw_within_50deg": 0.5489130434782609
+      },
+      "visual_topk_acoustic_rerank": {
+        "recall_0.1m": 0.09057971014492754,
+        "recall_0.5m": 0.4148550724637681,
+        "recall_1m": 0.463768115942029,
+        "recall_1m_30deg": 0.4384057971014493,
+        "median_xy_m": 2.7665426009869565,
+        "median_yaw_deg": 10.0,
+        "repair": 108,
+        "harm": 59,
+        "preserve_success": 148,
+        "preserve_failure": 237,
+        "yaw_within_10deg": 0.5434782608695652,
+        "yaw_within_30deg": 0.5634057971014492,
+        "yaw_within_50deg": 0.5778985507246377
+      }
+    }
+  },
+  "queries": 1472,
+  "scenes": 3,
+  "acoustic_epoch": 5,
+  "acoustic_checkpoint_sha256": "738c3091284597a7852a878b8cc39119054054a983393b45eef3cee1e03ada07",
+  "tags": {
+    "acoustic_only_preserve_success": 221,
+    "equal_weight_fusion_preserve_success": 443,
+    "visual_topk_acoustic_rerank_preserve_success": 496,
+    "acoustic_only_harm": 455,
+    "visual_topk_acoustic_rerank_harm": 180,
+    "equal_weight_fusion_harm": 233,
+    "acoustic_only_repair": 136,
+    "equal_weight_fusion_repair": 234,
+    "visual_topk_acoustic_rerank_repair": 258,
+    "visual_topk_acoustic_rerank_preserve_failure": 538,
+    "topk_exclusion": 163,
+    "acoustic_only_preserve_failure": 660,
+    "equal_weight_fusion_preserve_failure": 562
+  },
+  "corrected_frame": true,
+  "input_condition": "envelope",
+  "numerical_checks": [
+    {
+      "scene_id": "104862687_172226883",
+      "max_error": 7.771561172376096e-16
+    },
+    {
+      "scene_id": "105515301_173104305",
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "scene_id": "104862417_172226382",
+      "max_error": 8.881784197001252e-16
+    }
+  ],
+  "paired_pose_bootstrap": {
+    "acoustic_only": {
+      "delta_recall_1m": -0.21671195652173914,
+      "ci95": [
+        -0.2608122796709753,
+        -0.1702591156786015
+      ],
+      "unit": "paired physical positions, all retained yaws together",
+      "clusters": 185,
+      "caveat": "Within these3 exploratory scenes; not an unseen-scene generalization CI"
+    },
+    "equal_weight_fusion": {
+      "delta_recall_1m": 0.0006793478260869565,
+      "ci95": [
+        -0.03453297260924016,
+        0.039216699076324746
+      ],
+      "unit": "paired physical positions, all retained yaws together",
+      "clusters": 185,
+      "caveat": "Within these3 exploratory scenes; not an unseen-scene generalization CI"
+    },
+    "visual_topk_acoustic_rerank": {
+      "delta_recall_1m": 0.05298913043478261,
+      "ci95": [
+        0.01960839756704707,
+        0.0872210953346856
+      ],
+      "unit": "paired physical positions, all retained yaws together",
+      "clusters": 185,
+      "caveat": "Within these3 exploratory scenes; not an unseen-scene generalization CI"
+    }
+  },
+  "contract": {
+    "bank_sha256": "8d350c418c026ad7d4365436748a8432a3cb856875f75a110ded2ca600fa9208",
+    "ready_sha256": "a2b8c348f1d3fa8b546862df1b3812b84871e6b614b06ccd351bf9a62e5b25a1",
+    "handcrafted_ready_sha256": "0684dc1acd3ad0f76dee45d57ad9d9cf03c3e5c2cd6eda93ecf8ec2c5be55a4a",
+    "original_records_sha256": "e3d7df16625adabb81c3e6393a43c81305d0e4c5aa7bec6efb2931cb92a78ae9",
+    "ablation_summary_sha256": "d9cc88d8a9136288a78d0ffc0914b358e5cda6208d6a0e1860ab493430ef0c0b",
+    "models": {
+      "energy": "65d37d233709572c401dbfb34ca7deffbff1000a07ef18ca4d41f3b37292caee",
+      "both": "bb3aa2cf548531bf5529e041e5c78aefd3db9792768e0e030c0932cdd6687a68",
+      "envelope": "738c3091284597a7852a878b8cc39119054054a983393b45eef3cee1e03ada07",
+      "all": "f7ba7267c66490a034338d19867049e7392fef6795a6b947dfbbdc02f57d27b8"
+    },
+    "test_fitting": false,
+    "checkpoint_selection": "frozen per-condition VAL loss best",
+    "scoring": "float64 cosine over float32 normalized embeddings; no learned temperature",
+    "envelope_dtype": "float16 quantization, matching training",
+    "new_RIRs": false,
+    "query_count": 1472,
+    "grid_spacing_m": 0.2,
+    "yaw_step_deg": 10,
+    "feature_definition": {
+      "version": "energy_complex_zero_tail_v2",
+      "sample_rate_hz": 48000,
+      "direct_sample": 7,
+      "start_ms": 2,
+      "end_ms": 128,
+      "early_end_ms": 50,
+      "nfft": 256,
+      "hop": 64,
+      "band_hz": [
+        500,
+        4000
+      ],
+      "log_energy_gain": 100.0
+    },
+    "visual_score_sources": {
+      "104862687_172226883": {
+        "directory": "ReliabilityFusion/pilots/v1/score_cache/test/104862687_172226883",
+        "receipt_sha256": "9c6ba8703231b5963484537969787de6941d8a0e324d66eb6a07ae85809538a0"
+      },
+      "105515301_173104305": {
+        "directory": "ReliabilityFusion/pilots/v1/score_cache/test/105515301_173104305",
+        "receipt_sha256": "837893a1e664e7bd0b7c3aeb3fd36f46587dee8031a1b0cd21466f62a4840b8c"
+      },
+      "104862417_172226382": {
+        "directory": "ReliabilityFusion/pilots/v1/score_cache/test/104862417_172226382",
+        "receipt_sha256": "584dc16fb9ee33025c486759c052d641e200bb234b1efe0d97e1b70643a81bec"
+      }
+    }
+  },
+  "interpretations": [
+    "Mic-mean-removed envelope · 동일한 frozen dense test bank. Best는 test를 열기 전에 val loss로 선택했습니다."
+  ],
+  "limitations": [
+    "Exploratory original3test scenes, not a new blind benchmark",
+    "Single seed; unequal parameter counts",
+    "0.2m grid limits R@0.1m"
+  ]
+}

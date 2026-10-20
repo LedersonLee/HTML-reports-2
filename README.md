@@ -5,6 +5,20 @@ to avoid adding to its near-limit published footprint.
 
 ## HSSD corrected test comparison
 
+## Seven acoustic input subsets
+
+- Report: `echoloc/input-ablation-seven/`
+- E / C / N / E+C / E+N / C+N / E+C+N; train12 / val3 / test3.
+- Same 1,472 dense-test queries and four localization policies, independently
+  verified against the original predictions; no retraining or inference here.
+- Recall@0.1/0.5/1m, Recall@1m+30deg, yaw within10/30/50deg, median XY/yaw
+  errors, and repair/harm counts; all metrics also available as CSV.
+- Each condition has its own RGB/rays/likelihood viewer. Derived arrays use
+  lossless gzip; identical published RGB/floorplans are reused with hash checks.
+- Single seed and unequal parameter counts; exploratory test subset reuse.
+
+## HSSD corrected test comparison details
+
 - Report: `echoloc/corrected-test/`
 - Same three test scenes /1,472 queries as the original LAN report.
 - Frozen vision-only, learned acoustic-only, fixed1:1 fusion and fixed Top-K.
