@@ -3,6 +3,17 @@
 Public report hosting, split from the original `LedersonLee/html-reports` site
 to avoid adding to its near-limit published footprint.
 
+## HSSD semantic map compatibility review
+
+- Report: `echoloc/hssd-semantic-compatibility/`
+- All 152 scenes: train116 / val19 / test17, searchable split selector and thumbnails.
+- Aligned geometry / original semantics / converted semantics, preserved internal/exterior scope, full-resolution zoom and integer-ID PNG download.
+- Geometry, poses, splits, source annotations and existing ray caches are unchanged.
+- Map IDs: empty0 / wall1 / window2 / door3; model ray IDs are different.
+- Nonzero semantic on geometry-free pixels is a diagnostic, not automatic failure. Do not derive occupancy from semantic nonzero pixels.
+- 760 published PNGs are checked against source hashes and raster dimensions. Only compact review images and sanitized provenance are published; no NPY, RGB, RIR or checkpoints.
+- `publication.json` and `verification.json` record source conversion manifest identity and publication checks.
+
 ## HSSD corrected test comparison
 
 ## Seven acoustic input subsets

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "scene_count": 152,
+  "images": 760,
+  "split_counts": {
+    "test": 17,
+    "train": 116,
+    "val": 19
+  },
+  "source_manifest_sha256": "a0fc330414389f7263ce943c3ea524ee8229ce73e791b346d3b00922a46c791a",
+  "total_bytes": 10863518,
+  "image_hashes_and_dimensions": true,
+  "integer_id_encoding": true,
+  "controller_unit_tests_passed": 12,
+  "controller_test_scope": "JavaScript controller executed with DOM test doubles: split/search/navigation/filter/sort/overview/zoom/deep-link/image identity",
+  "real_browser_rendering_verified": false,
+  "browser_limitation": "No browser surface was available in this session. Image assets and controller logic were checked independently."
+}
