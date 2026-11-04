@@ -1,0 +1,190 @@
+{
+  "scene": "00017-oEPjPNSPmzL",
+  "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+  "variants": {
+    "A": {
+      "free_m2": 86.9682,
+      "added_free_m2": 0.0,
+      "removed_free_m2": 0.0,
+      "agreement_iou_with_A_not_accuracy": 1.0,
+      "components_ge_0_1m2": 1,
+      "observed_floor_retained": 0.9992739748576973,
+      "boundary_pixels": 9773
+    },
+    "B": {
+      "free_m2": 87.09290000000001,
+      "added_free_m2": 0.4104,
+      "removed_free_m2": 0.2857,
+      "agreement_iou_with_A_not_accuracy": 0.9920335185045308,
+      "components_ge_0_1m2": 1,
+      "observed_floor_retained": 0.9970820373755664,
+      "boundary_pixels": 9564
+    },
+    "C": {
+      "free_m2": 86.9625,
+      "added_free_m2": 0.33410000000000006,
+      "removed_free_m2": 0.33980000000000005,
+      "agreement_iou_with_A_not_accuracy": 0.9922808448345576,
+      "components_ge_0_1m2": 1,
+      "observed_floor_retained": 0.9971842700328357,
+      "boundary_pixels": 9752
+    }
+  },
+  "config": {
+    "seed": 411,
+    "polygon_tolerance_m": 0.03,
+    "wall_plane_distance_m": 0.035,
+    "wall_normal_angle_deg": 15,
+    "wall_min_support_m2": 0.12,
+    "wall_min_length_m": 0.25,
+    "wall_interval_join_m": 0.04,
+    "wall_max_raster_displacement_m": 0.06,
+    "pixel_resolution_m": 0.01
+  },
+  "fit": {
+    "plane_count": 44,
+    "segment_count": 48,
+    "unfitted_wall_fraction": 0.028286078155372343
+  },
+  "contour_vertices_before": 1682,
+  "contour_vertices_after": 129,
+  "source_mesh_sha256": "af3df2f39be5b907ffea53037c57a2be58437345446a1579f8fd3aadebe0a426",
+  "source_labels_sha256": "52e266dfd6400c875b9603b61a6b31d335b97c8d888fd0e3d29b5ecd3d6fef1e",
+  "baseline_map_sha256": "31b6d43d92ca67f9336fdf6c369a4b8dc4545e377023fabf4168062e7f5c1abe",
+  "baseline_manifest_sha256": "162f9a1b6e7f83c4dffdae76f8c7665cec34076ec0ba078d31034fa3e7f4d8c3",
+  "shape_hw": [
+    751,
+    1679
+  ],
+  "bounds_xy_native": [
+    -12.0,
+    -4.839999675750732,
+    4.789999961853027,
+    2.669999837875366
+  ],
+  "seconds": 1.13716721534729,
+  "warnings": [
+    "B: clearance-aware connectivity changed"
+  ],
+  "connectivity_vs_A": {
+    "B": {
+      "common_probe_count": 250,
+      "clearance_m": 0.1,
+      "lost_pairs": 0,
+      "gained_pairs": 249,
+      "lost_pair_examples_row_col": [],
+      "gained_pair_examples_row_col": [
+        [
+          [
+            50,
+            650
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            50,
+            700
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            50,
+            750
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            100
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            150
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            200
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            300
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            350
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            500
+          ],
+          [
+            600,
+            350
+          ]
+        ],
+        [
+          [
+            100,
+            550
+          ],
+          [
+            600,
+            350
+          ]
+        ]
+      ],
+      "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+    },
+    "C": {
+      "common_probe_count": 250,
+      "clearance_m": 0.1,
+      "lost_pairs": 0,
+      "gained_pairs": 0,
+      "lost_pair_examples_row_col": [],
+      "gained_pair_examples_row_col": [],
+      "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+    }
+  }
+}

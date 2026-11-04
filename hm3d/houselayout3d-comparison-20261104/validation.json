@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scenes": 18,
+  "baseline_maps_and_manifests_unchanged": true,
+  "source_semantics_hashes_unchanged": true,
+  "A_pixel_exact": true,
+  "BC_raster_alignment_and_values_valid": true,
+  "vector_world_pixel_roundtrip_valid": true,
+  "all_report_links_valid": true,
+  "analytic_tests": "polygon zero-tolerance roundtrip; nested holes/islands; 80cm doorway; identity connectivity passed",
+  "visual_review": "18 contact-sheet comparisons and full-size connectivity detail inspected",
+  "limitations": [
+    "No floorplan GT accuracy measurement",
+    "No end-to-end MultiFloor3D reproduction",
+    "No actual browser layout test",
+    "Connectivity is sampled at 10cm clearance, not exhaustive"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scene_count": 18,
+  "candidate_count": 11,
+  "previously_accepted_controls": 7,
+  "mean_C_changed_free_area_m2": 1.1792444444444445,
+  "mean_C_A_iou_not_accuracy": 0.9927399662198929,
+  "mean_polygon_vertex_reduction_fraction": 0.892384220778406,
+  "B_connectivity_changed_scenes": [
+    "00017-oEPjPNSPmzL"
+  ],
+  "C_connectivity_changed_scenes": [],
+  "probe_limitation": "At most 250 common interior probes, 0.5m grid, 10cm clearance. This is not an exhaustive topology proof."
+}

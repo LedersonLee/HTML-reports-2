@@ -1,0 +1,87 @@
+{
+  "scene": "00569-YJDUB7hWg9h",
+  "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+  "variants": {
+    "A": {
+      "free_m2": 123.5339,
+      "added_free_m2": 0.0,
+      "removed_free_m2": 0.0,
+      "agreement_iou_with_A_not_accuracy": 1.0,
+      "components_ge_0_1m2": 1,
+      "observed_floor_retained": 0.9997527381212962,
+      "boundary_pixels": 13138
+    },
+    "B": {
+      "free_m2": 123.33850000000001,
+      "added_free_m2": 0.4422,
+      "removed_free_m2": 0.6376,
+      "agreement_iou_with_A_not_accuracy": 0.9912902567510996,
+      "components_ge_0_1m2": 1,
+      "observed_floor_retained": 0.9988163857609585,
+      "boundary_pixels": 12878
+    },
+    "C": {
+      "free_m2": 123.62100000000001,
+      "added_free_m2": 0.5104,
+      "removed_free_m2": 0.4233,
+      "agreement_iou_with_A_not_accuracy": 0.9924728504252109,
+      "components_ge_0_1m2": 1,
+      "observed_floor_retained": 0.9990910085852567,
+      "boundary_pixels": 13588
+    }
+  },
+  "config": {
+    "seed": 411,
+    "polygon_tolerance_m": 0.03,
+    "wall_plane_distance_m": 0.035,
+    "wall_normal_angle_deg": 15,
+    "wall_min_support_m2": 0.12,
+    "wall_min_length_m": 0.25,
+    "wall_interval_join_m": 0.04,
+    "wall_max_raster_displacement_m": 0.06,
+    "pixel_resolution_m": 0.01
+  },
+  "fit": {
+    "plane_count": 54,
+    "segment_count": 64,
+    "unfitted_wall_fraction": 0.03105979795444563
+  },
+  "contour_vertices_before": 2213,
+  "contour_vertices_after": 234,
+  "source_mesh_sha256": "677b80b56296d1cf988d5c15ac9b3db29685ad779aa0375b36b4cc969a44415d",
+  "source_labels_sha256": "788f05565fd00a88dfd378b0e6a3c6e398efc7b0842fd2b3a9621008d6a9a0e5",
+  "baseline_map_sha256": "bacc4f9e04ce2bdbfe7f9920b6267ec0cfebf7073dab44de96a00e576d5dc95b",
+  "baseline_manifest_sha256": "e74dd0f9a85b37f6f335a6b27cb2e3e0dd4a8c51605fbd41295ad03d0671d3c4",
+  "shape_hw": [
+    976,
+    1599
+  ],
+  "bounds_xy_native": [
+    -11.420000076293945,
+    -4.349999904632568,
+    4.569999694824219,
+    5.409999847412109
+  ],
+  "seconds": 1.1941924095153809,
+  "warnings": [],
+  "connectivity_vs_A": {
+    "B": {
+      "common_probe_count": 250,
+      "clearance_m": 0.1,
+      "lost_pairs": 0,
+      "gained_pairs": 0,
+      "lost_pair_examples_row_col": [],
+      "gained_pair_examples_row_col": [],
+      "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+    },
+    "C": {
+      "common_probe_count": 250,
+      "clearance_m": 0.1,
+      "lost_pairs": 0,
+      "gained_pairs": 0,
+      "lost_pair_examples_row_col": [],
+      "gained_pair_examples_row_col": [],
+      "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+    }
+  }
+}

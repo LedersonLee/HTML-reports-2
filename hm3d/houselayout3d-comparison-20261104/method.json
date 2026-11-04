@@ -1,0 +1,40 @@
+{
+  "name": "HouseLayout3D-inspired geometry ablation v1",
+  "official_baseline_reproduced": false,
+  "paper": "https://houselayout3d.github.io/assets/houselayout3d_paper.pdf",
+  "repository": "https://github.com/HouseLayout3D/houselayout3d",
+  "release_issue": "https://github.com/HouseLayout3D/houselayout3d/issues/1",
+  "official_repository_commit": "429d15b49488e8af03559bcd9ba8fed4ad618e2d",
+  "implemented": [
+    "Source HM3D semantic triangle normals + area-weighted vertical wall-plane RANSAC per instance",
+    "Projected wall intervals retaining gaps >4cm; minimum segment length 25cm; local displacement limited to 6cm",
+    "RDP polygon boundary simplification at 3cm tolerance; non-Manhattan directions allowed",
+    "Matched bounds, 1cm resolution, fixed floor/ceiling/object-support masks, frozen old inferred walls",
+    "Unfitted walls retained; explicit A/B/C ablation and changed-connectivity diagnostics"
+  ],
+  "not_implemented": [
+    "DN-Splatter / Metric3D reconstruction",
+    "OneFormer and superpoint semantic transfer",
+    "Full jointly optimized 3D polygons and Lprox/Lempty/Lconnect/Lsimple losses",
+    "Real camera/depth-ray empty-space constraints and evidence-guided wall extension",
+    "Hov-SG room graph, door/stair extraction, ceiling extrusion"
+  ],
+  "fairness": "This isolates geometric regularization with existing input/support masks. It is not an independent end-to-end HouseLayout3D or MultiFloor3D benchmark. Metrics compare to baseline A, not ground truth.",
+  "config": {
+    "seed": 411,
+    "polygon_tolerance_m": 0.03,
+    "wall_plane_distance_m": 0.035,
+    "wall_normal_angle_deg": 15,
+    "wall_min_support_m2": 0.12,
+    "wall_min_length_m": 0.25,
+    "wall_interval_join_m": 0.04,
+    "wall_max_raster_displacement_m": 0.06,
+    "pixel_resolution_m": 0.01
+  },
+  "script_sha256": {
+    "gallery.py": "5ac7c6442a6ae273301ea046dd3c81549bcf0aebc1e24fba8cdfea8369d6932b",
+    "validate.py": "ff5de2d33cf7ff79f8c7465643320009e53372a7d7a1627eefcf56985dd968e3",
+    "check_invariants.py": "d2ad32248f6e9612f5651fbe652939c6e7627c90b97a39496c8e05f9abb98807",
+    "compare.py": "59b5338a5bfb7556eeba7570872d27ab4eb9a48c7ad95f17d42437777af10921"
+  }
+}

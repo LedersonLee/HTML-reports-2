@@ -1,0 +1,1671 @@
+[
+  {
+    "scene": "00017-oEPjPNSPmzL",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 86.9682,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9992739748576973,
+        "boundary_pixels": 9773
+      },
+      "B": {
+        "free_m2": 87.09290000000001,
+        "added_free_m2": 0.4104,
+        "removed_free_m2": 0.2857,
+        "agreement_iou_with_A_not_accuracy": 0.9920335185045308,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9970820373755664,
+        "boundary_pixels": 9564
+      },
+      "C": {
+        "free_m2": 86.9625,
+        "added_free_m2": 0.33410000000000006,
+        "removed_free_m2": 0.33980000000000005,
+        "agreement_iou_with_A_not_accuracy": 0.9922808448345576,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9971842700328357,
+        "boundary_pixels": 9752
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 44,
+      "segment_count": 48,
+      "unfitted_wall_fraction": 0.028286078155372343
+    },
+    "contour_vertices_before": 1682,
+    "contour_vertices_after": 129,
+    "source_mesh_sha256": "af3df2f39be5b907ffea53037c57a2be58437345446a1579f8fd3aadebe0a426",
+    "source_labels_sha256": "52e266dfd6400c875b9603b61a6b31d335b97c8d888fd0e3d29b5ecd3d6fef1e",
+    "baseline_map_sha256": "31b6d43d92ca67f9336fdf6c369a4b8dc4545e377023fabf4168062e7f5c1abe",
+    "baseline_manifest_sha256": "162f9a1b6e7f83c4dffdae76f8c7665cec34076ec0ba078d31034fa3e7f4d8c3",
+    "shape_hw": [
+      751,
+      1679
+    ],
+    "bounds_xy_native": [
+      -12.0,
+      -4.839999675750732,
+      4.789999961853027,
+      2.669999837875366
+    ],
+    "seconds": 1.13716721534729,
+    "warnings": [
+      "B: clearance-aware connectivity changed"
+    ],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 249,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [
+          [
+            [
+              50,
+              650
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              50,
+              700
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              50,
+              750
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              100
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              150
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              200
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              300
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              350
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              500
+            ],
+            [
+              600,
+              350
+            ]
+          ],
+          [
+            [
+              100,
+              550
+            ],
+            [
+              600,
+              350
+            ]
+          ]
+        ],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00033-oPj9qMxrDEa",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 134.46970000000002,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9993394599663075,
+        "boundary_pixels": 12095
+      },
+      "B": {
+        "free_m2": 134.5951,
+        "added_free_m2": 0.5338,
+        "removed_free_m2": 0.40840000000000004,
+        "agreement_iou_with_A_not_accuracy": 0.9930209216798083,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9971035567845904,
+        "boundary_pixels": 11983
+      },
+      "C": {
+        "free_m2": 134.6692,
+        "added_free_m2": 0.5556,
+        "removed_free_m2": 0.3561,
+        "agreement_iou_with_A_not_accuracy": 0.993247932054215,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9975237198436159,
+        "boundary_pixels": 12198
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 50,
+      "segment_count": 53,
+      "unfitted_wall_fraction": 0.050947007193295056
+    },
+    "contour_vertices_before": 2457,
+    "contour_vertices_after": 272,
+    "source_mesh_sha256": "b0b4f9219bb453889ca5634a9737c0ad71e38bc33608b93806268a9e05671451",
+    "source_labels_sha256": "52ab1a5f432540ee16828affea3dfb2cd1fc4791330ee1cda08bac900ba85c7b",
+    "baseline_map_sha256": "be9d855f8955eda30bf225b699062fea291b730bbb5e62bd6a1a481bfc3d49ed",
+    "baseline_manifest_sha256": "570d6538d7c47a400e1971f93ddb13a2c42645f510d00360cd8913a5425755ce",
+    "shape_hw": [
+      1105,
+      1759
+    ],
+    "bounds_xy_native": [
+      -12.069999694824219,
+      -8.149999618530273,
+      5.519999980926514,
+      2.8999998569488525
+    ],
+    "seconds": 0.5405933856964111,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00108-oStKKWkQ1id",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 145.9412,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.999233468193231,
+        "boundary_pixels": 15024
+      },
+      "B": {
+        "free_m2": 146.0651,
+        "added_free_m2": 0.5662,
+        "removed_free_m2": 0.4423,
+        "agreement_iou_with_A_not_accuracy": 0.9931163886602314,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9967503639114531,
+        "boundary_pixels": 14562
+      },
+      "C": {
+        "free_m2": 145.935,
+        "added_free_m2": 0.5251,
+        "removed_free_m2": 0.5313,
+        "agreement_iou_with_A_not_accuracy": 0.9927874193585828,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9961663851908349,
+        "boundary_pixels": 14972
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 90,
+      "segment_count": 91,
+      "unfitted_wall_fraction": 0.06455631950532971
+    },
+    "contour_vertices_before": 4455,
+    "contour_vertices_after": 395,
+    "source_mesh_sha256": "e75e04c0de49700a9d25104d643b830e796fa68b11afb11f8b004bc88d226810",
+    "source_labels_sha256": "6b3f3c321e0adfa1dea17106d98443081d5d44f62b04c7dd1b4bbefb9f7cc3bc",
+    "baseline_map_sha256": "c604368a80732f77b40ce4673bb8ba660e3511eaf4739b3d940f4c5ad0d00989",
+    "baseline_manifest_sha256": "a22108a49d006d23ff0643deacfd52f9d1dc55aa22027add5c8e45fe274aaa2a",
+    "shape_hw": [
+      1822,
+      1955
+    ],
+    "bounds_xy_native": [
+      -6.279999732971191,
+      -9.859999656677246,
+      13.269999504089355,
+      8.359999656677246
+    ],
+    "seconds": 2.551816701889038,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00166-RaYrxWt5pR1",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 94.76030000000002,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9995388858180786,
+        "boundary_pixels": 9395
+      },
+      "B": {
+        "free_m2": 94.4957,
+        "added_free_m2": 0.2751,
+        "removed_free_m2": 0.5397,
+        "agreement_iou_with_A_not_accuracy": 0.9914263527064652,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9990156985732063,
+        "boundary_pixels": 9297
+      },
+      "C": {
+        "free_m2": 94.8426,
+        "added_free_m2": 0.37050000000000005,
+        "removed_free_m2": 0.2882,
+        "agreement_iou_with_A_not_accuracy": 0.9930758492517671,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9990984626571409,
+        "boundary_pixels": 9532
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 71,
+      "segment_count": 56,
+      "unfitted_wall_fraction": 0.06362425049966688
+    },
+    "contour_vertices_before": 2027,
+    "contour_vertices_after": 184,
+    "source_mesh_sha256": "1328b31c6d0dff91160354a5fb84b4a8d8a07ef137c34a67f7271cc962714e44",
+    "source_labels_sha256": "f7cb58b313de9176385de3b055daff93f2edc8eb03448c6a16f7ce2d0dc24f66",
+    "baseline_map_sha256": "37cac3b9e33760f6a7c232a21f22609f04096cfcb669e115ea9f724b2cfb9d69",
+    "baseline_manifest_sha256": "fb27048bcb0aeeef6d6a4a9587e0351504bf569986f028398edbfe4d2c402884",
+    "shape_hw": [
+      1088,
+      1179
+    ],
+    "bounds_xy_native": [
+      -7.489999771118164,
+      -9.920000076293945,
+      4.299999713897705,
+      0.9599999785423279
+    ],
+    "seconds": 1.5903706550598145,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00177-VSxVP19Cdyw",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 119.9791,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9992487271009396,
+        "boundary_pixels": 13669
+      },
+      "B": {
+        "free_m2": 119.79620000000001,
+        "added_free_m2": 0.5004,
+        "removed_free_m2": 0.6833,
+        "agreement_iou_with_A_not_accuracy": 0.9901750920281044,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.995412533025388,
+        "boundary_pixels": 13452
+      },
+      "C": {
+        "free_m2": 119.8533,
+        "added_free_m2": 0.4806,
+        "removed_free_m2": 0.6064,
+        "agreement_iou_with_A_not_accuracy": 0.990976235205633,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9949521459940861,
+        "boundary_pixels": 13802
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 52,
+      "segment_count": 59,
+      "unfitted_wall_fraction": 0.037804520105664804
+    },
+    "contour_vertices_before": 2349,
+    "contour_vertices_after": 256,
+    "source_mesh_sha256": "2b63d8aa41c31021b8e91e32f89c4951791b36bc9f519f4db174632fead93c5b",
+    "source_labels_sha256": "84fcf629ea8f9149a151ce55838094095739f94fe72f17cd6941c41451ac523d",
+    "baseline_map_sha256": "5c2c12884afb60a89518e19385240e15d1631c6e5292b0bad7bc9c9f1d354cbb",
+    "baseline_manifest_sha256": "18a5c139ce79768d2fbaa10c63c0133dbe9d4955e87e9eb72dd107151816c6f0",
+    "shape_hw": [
+      1152,
+      1605
+    ],
+    "bounds_xy_native": [
+      -1.0,
+      -4.449999809265137,
+      15.049999237060547,
+      7.069999694824219
+    ],
+    "seconds": 1.2063329219818115,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00251-wsAYBFtQaL7",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 214.9559,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9988714607880498,
+        "boundary_pixels": 23767
+      },
+      "B": {
+        "free_m2": 214.5196,
+        "added_free_m2": 0.7120000000000001,
+        "removed_free_m2": 1.1483,
+        "agreement_iou_with_A_not_accuracy": 0.9913742378907571,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9978412219373214,
+        "boundary_pixels": 22844
+      },
+      "C": {
+        "free_m2": 215.16240000000002,
+        "added_free_m2": 0.9865,
+        "removed_free_m2": 0.78,
+        "agreement_iou_with_A_not_accuracy": 0.9918195778133428,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9982886800750913,
+        "boundary_pixels": 24591
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 104,
+      "segment_count": 119,
+      "unfitted_wall_fraction": 0.06907623909105878
+    },
+    "contour_vertices_before": 4069,
+    "contour_vertices_after": 512,
+    "source_mesh_sha256": "b4831200d7175f3abcbd5edac53f332528efde67ab6aaa838028985473f05eb1",
+    "source_labels_sha256": "3a325e68aeffc9de0f361261b676c9c09a4a714c0f226df290824437a2466439",
+    "baseline_map_sha256": "481a974805b3e893d12ba76eaf24b343ce3034cccf022d0bf653f0207bb4fbaa",
+    "baseline_manifest_sha256": "c2bb989a724d872ea9147f4c9024fe67fb46c2c65723a0b0508df47b2d13f77a",
+    "shape_hw": [
+      1311,
+      3215
+    ],
+    "bounds_xy_native": [
+      -19.10999870300293,
+      -6.889999866485596,
+      13.039999961853027,
+      6.21999979019165
+    ],
+    "seconds": 1.811354160308838,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00304-X6Pct1msZv5",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 104.8592,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9979569923584121,
+        "boundary_pixels": 11269
+      },
+      "B": {
+        "free_m2": 104.63680000000001,
+        "added_free_m2": 0.32189999999999996,
+        "removed_free_m2": 0.5443,
+        "agreement_iou_with_A_not_accuracy": 0.991764680156416,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9964846123429166,
+        "boundary_pixels": 10886
+      },
+      "C": {
+        "free_m2": 104.9566,
+        "added_free_m2": 0.4758,
+        "removed_free_m2": 0.37840000000000007,
+        "agreement_iou_with_A_not_accuracy": 0.9918906346418569,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9976339046039201,
+        "boundary_pixels": 12055
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 61,
+      "segment_count": 63,
+      "unfitted_wall_fraction": 0.034645993413830956
+    },
+    "contour_vertices_before": 2635,
+    "contour_vertices_after": 271,
+    "source_mesh_sha256": "dee53665d5dc1af974ca52f9cd8059b74ab0502031d0bdea054152b79d5586b5",
+    "source_labels_sha256": "afe150d50b18ec7036a1236f9ddde5dd9c5a58b63dd80cae1461b58ba9b9b3b1",
+    "baseline_map_sha256": "0dc55acf25e7723ed7d6a07dd655eddc6460eb9eeef80551a34820b1bf8fe839",
+    "baseline_manifest_sha256": "a3ca65b76c419b5ef14cd64d844a2a6a4e1365a183cad23c667b5733f34bfc62",
+    "shape_hw": [
+      1313,
+      1199
+    ],
+    "bounds_xy_native": [
+      -1.5699999332427979,
+      -8.479999542236328,
+      10.420000076293945,
+      4.650000095367432
+    ],
+    "seconds": 1.3311800956726074,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00404-QN2dRqwd84J",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 136.3742,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9967606042998257,
+        "boundary_pixels": 15328
+      },
+      "B": {
+        "free_m2": 136.1623,
+        "added_free_m2": 0.45550000000000007,
+        "removed_free_m2": 0.6674,
+        "agreement_iou_with_A_not_accuracy": 0.9917934483522218,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.994092581832268,
+        "boundary_pixels": 15066
+      },
+      "C": {
+        "free_m2": 136.5506,
+        "added_free_m2": 0.6268,
+        "removed_free_m2": 0.4504,
+        "agreement_iou_with_A_not_accuracy": 0.9921372836694623,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9953002130544257,
+        "boundary_pixels": 15871
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 80,
+      "segment_count": 78,
+      "unfitted_wall_fraction": 0.11506900410294667
+    },
+    "contour_vertices_before": 3071,
+    "contour_vertices_after": 369,
+    "source_mesh_sha256": "a1792304d9f8a170b20f98ad9390855f4d8aa021f42f67d36ddd507aacb4c92d",
+    "source_labels_sha256": "47eea47c076ce265b20352f0718f4226e78404ed73fe0de05d62aa3ad7dd840d",
+    "baseline_map_sha256": "7246e1601e355ada9d45e48591ed972ef45354fc28a102114c8b6998b71e19c2",
+    "baseline_manifest_sha256": "ec3e10e6c8346f275393cc6de66acd3e921abe6b7b5caeee89b8e50bdd3e3008",
+    "shape_hw": [
+      1170,
+      1673
+    ],
+    "bounds_xy_native": [
+      -5.089999675750732,
+      -4.380000114440918,
+      11.639999389648438,
+      7.319999694824219
+    ],
+    "seconds": 1.347273826599121,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00417-nGhNxKrgBPb",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 273.6508,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9992670468330682,
+        "boundary_pixels": 25444
+      },
+      "B": {
+        "free_m2": 273.3387,
+        "added_free_m2": 0.8554,
+        "removed_free_m2": 1.1675,
+        "agreement_iou_with_A_not_accuracy": 0.9926307675382195,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9962060529059764,
+        "boundary_pixels": 25319
+      },
+      "C": {
+        "free_m2": 273.4989,
+        "added_free_m2": 0.9244,
+        "removed_free_m2": 1.0763,
+        "agreement_iou_with_A_not_accuracy": 0.9927134715735434,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9968385317600692,
+        "boundary_pixels": 25540
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 93,
+      "segment_count": 107,
+      "unfitted_wall_fraction": 0.014990328820116054
+    },
+    "contour_vertices_before": 3259,
+    "contour_vertices_after": 308,
+    "source_mesh_sha256": "82877dfeea648bf554355b18ba2df20c5a3c51dd5dab103a78b874a43b3850e6",
+    "source_labels_sha256": "7375eb66b7d86700dbd98b27c9ef2375d0e62b323a14d2c907fc796f2a647355",
+    "baseline_map_sha256": "1259fbcbe1b60eb23b0074324e3a73665398903aa5f6ecdee80892de3f88ea61",
+    "baseline_manifest_sha256": "e49957751739bfe11a4aad4870ffb5694e11fea2593a7b2b4d5cd6ab782e7dad",
+    "shape_hw": [
+      1660,
+      2413
+    ],
+    "bounds_xy_native": [
+      -2.5899999141693115,
+      -6.46999979019165,
+      21.53999900817871,
+      10.130000114440918
+    ],
+    "seconds": 1.618959665298462,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00567-KjZrPggnHm8",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 243.68959999999998,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 4,
+        "observed_floor_retained": 0.9993004361948118,
+        "boundary_pixels": 25107
+      },
+      "B": {
+        "free_m2": 243.30650000000003,
+        "added_free_m2": 0.7492000000000001,
+        "removed_free_m2": 1.1323,
+        "agreement_iou_with_A_not_accuracy": 0.9923027768095736,
+        "components_ge_0_1m2": 4,
+        "observed_floor_retained": 0.9967919449487169,
+        "boundary_pixels": 24818
+      },
+      "C": {
+        "free_m2": 243.8573,
+        "added_free_m2": 0.9334,
+        "removed_free_m2": 0.7657,
+        "agreement_iou_with_A_not_accuracy": 0.993054209947552,
+        "components_ge_0_1m2": 4,
+        "observed_floor_retained": 0.9981794561859446,
+        "boundary_pixels": 25508
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 82,
+      "segment_count": 81,
+      "unfitted_wall_fraction": 0.061220208123531385
+    },
+    "contour_vertices_before": 4947,
+    "contour_vertices_after": 590,
+    "source_mesh_sha256": "236807c0923610c3d457b8a592af2aa039fc8556d4428642921d33f53e9d8403",
+    "source_labels_sha256": "c0b4fbb64ff49aef61a78d781e5b04affa62cbd900300c4c542bd7fb9bcc7665",
+    "baseline_map_sha256": "0859d0801c67af2bcaac103d05ebefd5106ebdbbc5f6290642390d23d0765f04",
+    "baseline_manifest_sha256": "b88a71069448abae9e3048c4fd13a50d15804fcf4224dca34dbe57934e7f11ce",
+    "shape_hw": [
+      2279,
+      1569
+    ],
+    "bounds_xy_native": [
+      -3.1399998664855957,
+      -8.859999656677246,
+      12.550000190734863,
+      13.929999351501465
+    ],
+    "seconds": 0.771212100982666,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00591-JptJPosx1Z6",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 405.34110000000004,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 3,
+        "observed_floor_retained": 0.9993562010890701,
+        "boundary_pixels": 35002
+      },
+      "B": {
+        "free_m2": 405.21410000000003,
+        "added_free_m2": 1.1552,
+        "removed_free_m2": 1.2822,
+        "agreement_iou_with_A_not_accuracy": 0.9940038814621437,
+        "components_ge_0_1m2": 3,
+        "observed_floor_retained": 0.9981839620849414,
+        "boundary_pixels": 33650
+      },
+      "C": {
+        "free_m2": 405.60900000000004,
+        "added_free_m2": 1.3456000000000001,
+        "removed_free_m2": 1.0776999999999999,
+        "agreement_iou_with_A_not_accuracy": 0.9940413591100963,
+        "components_ge_0_1m2": 3,
+        "observed_floor_retained": 0.9980969248931204,
+        "boundary_pixels": 35765
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 202,
+      "segment_count": 180,
+      "unfitted_wall_fraction": 0.1714522205731248
+    },
+    "contour_vertices_before": 9343,
+    "contour_vertices_after": 1487,
+    "source_mesh_sha256": "67d053b65b4ff3334f51558e19da4e34a41bad3340f7cb30e58d5205616d044a",
+    "source_labels_sha256": "d5d221388da6ab8ae590b11da0d552ff70d6487ea0ac960c8858e050e6045714",
+    "baseline_map_sha256": "e9a0d17cfdf6a0661ad44219a584b4e63a4a57932fd142c16232c002a07423e7",
+    "baseline_manifest_sha256": "6906871cd9254aa9dcfd30273c9f2fefded143de4090db8af0ef0b5a35b8717e",
+    "shape_hw": [
+      2664,
+      4488
+    ],
+    "bounds_xy_native": [
+      -18.979999542236328,
+      -1.3899999856948853,
+      25.899999618530273,
+      25.25
+    ],
+    "seconds": 3.1810719966888428,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00099-226REUyJh2K",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 270.9105,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9989817350847168,
+        "boundary_pixels": 19734
+      },
+      "B": {
+        "free_m2": 270.8736,
+        "added_free_m2": 0.7733,
+        "removed_free_m2": 0.8102,
+        "agreement_iou_with_A_not_accuracy": 0.9941715332309103,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9979562141249065,
+        "boundary_pixels": 19373
+      },
+      "C": {
+        "free_m2": 271.3192,
+        "added_free_m2": 0.9548000000000001,
+        "removed_free_m2": 0.5461,
+        "agreement_iou_with_A_not_accuracy": 0.9944792513057018,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9983809345978846,
+        "boundary_pixels": 20390
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 53,
+      "segment_count": 53,
+      "unfitted_wall_fraction": 0.15481497511361178
+    },
+    "contour_vertices_before": 6615,
+    "contour_vertices_after": 620,
+    "source_mesh_sha256": "4314398026f33fda985c500c331e70454b755919ac58315fb0a87ca8bdb31ad9",
+    "source_labels_sha256": "c80b562bfe982a8bf48378c7f252c394b19871073bd485d32f27aaec2866881c",
+    "baseline_map_sha256": "5fff9216b97810794fbfad34ddb85692386498e714ac6975587ecea260da77e9",
+    "baseline_manifest_sha256": "311a37e105d3fefe558ac905ccbce1c7c974c30e39426e8cde00ec8c6cf7348e",
+    "shape_hw": [
+      2273,
+      2751
+    ],
+    "bounds_xy_native": [
+      -8.880000114440918,
+      -13.809999465942383,
+      18.6299991607666,
+      8.920000076293945
+    ],
+    "seconds": 2.1612613201141357,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00155-iLDo95ZbDJq",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 179.7684,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9993687452345236,
+        "boundary_pixels": 17238
+      },
+      "B": {
+        "free_m2": 179.15740000000002,
+        "added_free_m2": 0.3196,
+        "removed_free_m2": 0.9306000000000001,
+        "agreement_iou_with_A_not_accuracy": 0.9930578383901204,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9975316447516882,
+        "boundary_pixels": 17036
+      },
+      "C": {
+        "free_m2": 179.80290000000002,
+        "added_free_m2": 0.5023000000000001,
+        "removed_free_m2": 0.4678,
+        "agreement_iou_with_A_not_accuracy": 0.9946186485102682,
+        "components_ge_0_1m2": 2,
+        "observed_floor_retained": 0.9984233542392983,
+        "boundary_pixels": 17753
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 87,
+      "segment_count": 100,
+      "unfitted_wall_fraction": 0.033572919081845586
+    },
+    "contour_vertices_before": 2588,
+    "contour_vertices_after": 316,
+    "source_mesh_sha256": "6bfa1b0e05b737c539f777a87e537c273ae7151efea187f1cfa9eb8d0044ca38",
+    "source_labels_sha256": "944585c97c8ad446148fa147d55e4c05e248f165243e1520a99f6758714194bd",
+    "baseline_map_sha256": "3c625df52cde3b4451564d1a8434e61762282905739a0b12373ab141d6cab596",
+    "baseline_manifest_sha256": "a7963f7fc8cef0a47a5b1e872a9825571184749b63c8d8c59b09739c1ddb0f41",
+    "shape_hw": [
+      1396,
+      2126
+    ],
+    "bounds_xy_native": [
+      -15.5,
+      -11.609999656677246,
+      5.759999752044678,
+      2.3499999046325684
+    ],
+    "seconds": 1.3626048564910889,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00323-yHLr6bvWsVm",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 112.65690000000001,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9980553592823569,
+        "boundary_pixels": 12983
+      },
+      "B": {
+        "free_m2": 112.6025,
+        "added_free_m2": 0.405,
+        "removed_free_m2": 0.4594,
+        "agreement_iou_with_A_not_accuracy": 0.9923546305165577,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9952843230622715,
+        "boundary_pixels": 12826
+      },
+      "C": {
+        "free_m2": 112.7359,
+        "added_free_m2": 0.4565,
+        "removed_free_m2": 0.3775,
+        "agreement_iou_with_A_not_accuracy": 0.9926268682578722,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9959386808392984,
+        "boundary_pixels": 13087
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 69,
+      "segment_count": 71,
+      "unfitted_wall_fraction": 0.034198672356567095
+    },
+    "contour_vertices_before": 1808,
+    "contour_vertices_after": 244,
+    "source_mesh_sha256": "38ac5de62711acea490161e0038baf2f9219ab080c75919509dd6405cd99dfb9",
+    "source_labels_sha256": "845bcf497125c7fdd0c9aa12cdb84ea2cc3bee38516896354f523af5276fa15a",
+    "baseline_map_sha256": "023abd5311cc35e3c798cac3708a508c678fc4a53cdc653a3c4529406bb7a481",
+    "baseline_manifest_sha256": "2ffe488eb6b7b1a2498b649b2139defc5af7ec1ac060e1a321c5b175faca198a",
+    "shape_hw": [
+      1347,
+      1282
+    ],
+    "bounds_xy_native": [
+      -8.65999984741211,
+      -11.229999542236328,
+      4.159999847412109,
+      2.240000009536743
+    ],
+    "seconds": 1.2150952816009521,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00401-H8rQCnvBgo6",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 104.21440000000001,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9988689831567198,
+        "boundary_pixels": 11357
+      },
+      "B": {
+        "free_m2": 104.0099,
+        "added_free_m2": 0.3428,
+        "removed_free_m2": 0.5473,
+        "agreement_iou_with_A_not_accuracy": 0.9914869564219394,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9970467893536571,
+        "boundary_pixels": 11195
+      },
+      "C": {
+        "free_m2": 104.4633,
+        "added_free_m2": 0.5149,
+        "removed_free_m2": 0.266,
+        "agreement_iou_with_A_not_accuracy": 0.9925436339209753,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9986348947033176,
+        "boundary_pixels": 11572
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 52,
+      "segment_count": 57,
+      "unfitted_wall_fraction": 0.060130010834236185
+    },
+    "contour_vertices_before": 2110,
+    "contour_vertices_after": 192,
+    "source_mesh_sha256": "7dd570d0128c54dd7cb1ba2d40977680193e91d2657afb997a245417bdfe5d1d",
+    "source_labels_sha256": "6ba35b5ae0a82226924853e38387aef29ef7ece9fba7a175a2a274599388fcff",
+    "baseline_map_sha256": "97d885e87ae41bb6d82ccc215de93686b1a869eeaeea7df8ed204156d9799e94",
+    "baseline_manifest_sha256": "7fe919dba9e8498f6dc937307f462ab82fe037c83499984193ac10f939259f80",
+    "shape_hw": [
+      1321,
+      1165
+    ],
+    "bounds_xy_native": [
+      -5.539999961853027,
+      -4.259999752044678,
+      6.109999656677246,
+      8.949999809265137
+    ],
+    "seconds": 1.107931137084961,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00569-YJDUB7hWg9h",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 123.5339,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9997527381212962,
+        "boundary_pixels": 13138
+      },
+      "B": {
+        "free_m2": 123.33850000000001,
+        "added_free_m2": 0.4422,
+        "removed_free_m2": 0.6376,
+        "agreement_iou_with_A_not_accuracy": 0.9912902567510996,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9988163857609585,
+        "boundary_pixels": 12878
+      },
+      "C": {
+        "free_m2": 123.62100000000001,
+        "added_free_m2": 0.5104,
+        "removed_free_m2": 0.4233,
+        "agreement_iou_with_A_not_accuracy": 0.9924728504252109,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9990910085852567,
+        "boundary_pixels": 13588
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 54,
+      "segment_count": 64,
+      "unfitted_wall_fraction": 0.03105979795444563
+    },
+    "contour_vertices_before": 2213,
+    "contour_vertices_after": 234,
+    "source_mesh_sha256": "677b80b56296d1cf988d5c15ac9b3db29685ad779aa0375b36b4cc969a44415d",
+    "source_labels_sha256": "788f05565fd00a88dfd378b0e6a3c6e398efc7b0842fd2b3a9621008d6a9a0e5",
+    "baseline_map_sha256": "bacc4f9e04ce2bdbfe7f9920b6267ec0cfebf7073dab44de96a00e576d5dc95b",
+    "baseline_manifest_sha256": "e74dd0f9a85b37f6f335a6b27cb2e3e0dd4a8c51605fbd41295ad03d0671d3c4",
+    "shape_hw": [
+      976,
+      1599
+    ],
+    "bounds_xy_native": [
+      -11.420000076293945,
+      -4.349999904632568,
+      4.569999694824219,
+      5.409999847412109
+    ],
+    "seconds": 1.1941924095153809,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00612-GsQBY83r3hb",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 118.93979999999999,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9996219103466436,
+        "boundary_pixels": 11256
+      },
+      "B": {
+        "free_m2": 118.87190000000001,
+        "added_free_m2": 0.3786,
+        "removed_free_m2": 0.4465,
+        "agreement_iou_with_A_not_accuracy": 0.9930848888352509,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9975531759018565,
+        "boundary_pixels": 11176
+      },
+      "C": {
+        "free_m2": 118.9523,
+        "added_free_m2": 0.4374,
+        "removed_free_m2": 0.42490000000000006,
+        "agreement_iou_with_A_not_accuracy": 0.9927766776235328,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9974148504189213,
+        "boundary_pixels": 11317
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 48,
+      "segment_count": 52,
+      "unfitted_wall_fraction": 0.022222222222222223
+    },
+    "contour_vertices_before": 2683,
+    "contour_vertices_after": 228,
+    "source_mesh_sha256": "eb75e39b7a2917ed2db084b803c8ca6978d365063c646795a54fd9949d7ca936",
+    "source_labels_sha256": "ba55075f973f77aa3694a17d1ef3cccaca36a76589c1b61a493b3355b927b13b",
+    "baseline_map_sha256": "16dd2ea796ee1a7bc2c2859b2dcbbe2cbbaeb74323fdc64274a2847ff4e3a5f2",
+    "baseline_manifest_sha256": "44d28f7f8ce5ba6222290e2a06634f4fcb85ae4991f1ba5c0d9032a77d27eb3b",
+    "shape_hw": [
+      1869,
+      1709
+    ],
+    "bounds_xy_native": [
+      -3.2799999713897705,
+      -1.8199999332427979,
+      13.809999465942383,
+      16.869998931884766
+    ],
+    "seconds": 1.3483035564422607,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  },
+  {
+    "scene": "00712-HZ2iMMBsBQ9",
+    "method": "HouseLayout3D-inspired controlled geometry ablation, not official MultiFloor3D",
+    "variants": {
+      "A": {
+        "free_m2": 137.48960000000002,
+        "added_free_m2": 0.0,
+        "removed_free_m2": 0.0,
+        "agreement_iou_with_A_not_accuracy": 1.0,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.999256690540531,
+        "boundary_pixels": 15462
+      },
+      "B": {
+        "free_m2": 137.43720000000002,
+        "added_free_m2": 0.5397,
+        "removed_free_m2": 0.5921000000000001,
+        "agreement_iou_with_A_not_accuracy": 0.9918002916772019,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9952258985936545,
+        "boundary_pixels": 15362
+      },
+      "C": {
+        "free_m2": 137.6122,
+        "added_free_m2": 0.6292,
+        "removed_free_m2": 0.5066,
+        "agreement_iou_with_A_not_accuracy": 0.9917766444539049,
+        "components_ge_0_1m2": 1,
+        "observed_floor_retained": 0.9956519418204233,
+        "boundary_pixels": 15480
+      }
+    },
+    "config": {
+      "seed": 411,
+      "polygon_tolerance_m": 0.03,
+      "wall_plane_distance_m": 0.035,
+      "wall_normal_angle_deg": 15,
+      "wall_min_support_m2": 0.12,
+      "wall_min_length_m": 0.25,
+      "wall_interval_join_m": 0.04,
+      "wall_max_raster_displacement_m": 0.06,
+      "pixel_resolution_m": 0.01
+    },
+    "fit": {
+      "plane_count": 73,
+      "segment_count": 74,
+      "unfitted_wall_fraction": 0.014791477545789501
+    },
+    "contour_vertices_before": 2869,
+    "contour_vertices_after": 307,
+    "source_mesh_sha256": "b9ad8e4b1dde3f2f2be0fbcd62af5ff826a50701f1960f845028405609fa0bcf",
+    "source_labels_sha256": "d42b7d9d0c3c7db3b2f3d340effeb3dee41cbf0a91b9f2173269b665f86953a2",
+    "baseline_map_sha256": "75ae052984897fb0081c8f16b2333443e6ce72410149dffff575ff6e9ecc5eff",
+    "baseline_manifest_sha256": "f27218a160039ed9cd445ecbce82a351efd716190da8f233cbc5c3a13662febc",
+    "shape_hw": [
+      1042,
+      2246
+    ],
+    "bounds_xy_native": [
+      -9.989999771118164,
+      -2.169999837875366,
+      12.469999313354492,
+      8.25
+    ],
+    "seconds": 1.2981626987457275,
+    "warnings": [],
+    "connectivity_vs_A": {
+      "B": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      },
+      "C": {
+        "common_probe_count": 250,
+        "clearance_m": 0.1,
+        "lost_pairs": 0,
+        "gained_pairs": 0,
+        "lost_pair_examples_row_col": [],
+        "gained_pair_examples_row_col": [],
+        "interpretation": "Connectivity change vs A, not evidence of correctness or error"
+      }
+    }
+  }
+]

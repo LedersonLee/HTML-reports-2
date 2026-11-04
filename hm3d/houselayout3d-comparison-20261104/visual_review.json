@@ -1,0 +1,13 @@
+{
+  "reviewed": "All 18 A/B/C comparisons in three contact sheets; pilot pair; enlarged 00017 connectivity region",
+  "conclusion": "Small boundary simplification is visible; major missing-geometry and semantic errors persist. No wholesale replacement recommended.",
+  "scene_notes": {
+    "00017-oEPjPNSPmzL": "B breaks a thin U-like interior line near row 600 col 350; 249 gained probe pairs. The line may be residual geometry; this is not a confirmed erroneous doorway. C keeps the sampled connectivity.",
+    "00033-oPj9qMxrDEa": "Large jagged projections along central room walls persist in B and C; 3cm simplification does not correct this class of error.",
+    "00108-oStKKWkQ1id": "Upper-middle left region previously flagged by user remains; no room deletion inferred.",
+    "00304-X6Pct1msZv5": "Curved outer boundary remains approximately curved; ambiguous interior remnants remain.",
+    "00567-KjZrPggnHm8": "Large lower-central black region and connection ambiguity persist. Plane fitting is not a demonstrated fix.",
+    "previously_accepted_7": "Gross layout looks similar; no change in sampled connectivity for C. This is not re-approval of every changed pixel."
+  },
+  "next_method_needed": "For portal correction or larger wall completion, add reliable visibility/depth constraints and room topology; the paper describes these, but official baseline implementation is unavailable."
+}
