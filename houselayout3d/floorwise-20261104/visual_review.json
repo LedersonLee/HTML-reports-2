@@ -1,0 +1,12 @@
+{
+  "scope": "All six contact sheets (29 floors) visually inspected; not an exhaustive 3D or doorway audit.",
+  "observations": {
+    "17DRP5sb8fy_L0": "Cleaner outer boundary and removal of large baseline cutouts; internal wall details still need inspection.",
+    "1LXtFkjw3qL_L2": "Large interior has fewer wall lines than baseline; inspect missing versus nonstructural partitions.",
+    "JeFG25nYj2p_L0": "Door hypothesis changes connectivity substantially (11 to 2 components); doorway audit required.",
+    "WYY7iVyf5p8": "Four distinct floor footprints generated; small wall fragments and stair boundaries remain review items.",
+    "e9zR4mvMWw7_L0": "Small isolated lower-level footprint: height assignment alone does not establish utility as a scene."
+  },
+  "all_candidates_require_review": true,
+  "no_final_acceptance": true
+}

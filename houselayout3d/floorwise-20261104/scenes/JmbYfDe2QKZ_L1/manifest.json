@@ -1,0 +1,117 @@
+{
+  "scene": "JmbYfDe2QKZ_L1",
+  "building": "JmbYfDe2QKZ",
+  "house_level": 1,
+  "split_group": "JmbYfDe2QKZ",
+  "floor_assignment": {
+    "house_level": 1,
+    "scene": "JmbYfDe2QKZ_L1",
+    "floor_area_m2": 64.21832747630569,
+    "height_bands": [
+      {
+        "height_m": 2.527582700043074,
+        "area_m2": 64.21832747630569
+      }
+    ],
+    "major_height_span_m": 0.0,
+    "height_range_m": [
+      2.33632,
+      2.5963713333333334
+    ],
+    "assignment_median_height_error_m": 0.007459833333333554,
+    "assignment_p95_height_error_m": 0.14863958333333346,
+    "status": "height_consistent_candidate",
+    "triangle_ids": [
+      315,
+      316,
+      367,
+      368,
+      369,
+      370,
+      391,
+      392,
+      415,
+      416,
+      417,
+      418,
+      421,
+      422,
+      427,
+      428,
+      429,
+      430,
+      477,
+      478,
+      479,
+      480,
+      497,
+      498,
+      517,
+      518,
+      521,
+      522,
+      529,
+      530,
+      537,
+      538
+    ]
+  },
+  "baseline_scene": "JmbYfDe2QKZ_f1",
+  "source": "HouseLayout3D manually annotated MP3D CAD layout",
+  "source_revision": "c9c483e2890293230273f1ed475fd286e3b6cb39",
+  "source_annotation_sha256": "24d3050c9863d2e1b5c2e0bb30b29f1c026b9400988fbe00a61ea1519e4bc18e",
+  "source_doors_sha256": "1da81bc47cbac25e84726b4720ce22532dcaea4d18bcbfd5fad9bac388cea1b5",
+  "source_windows_sha256": "4c8be92d4a5fe37a3285915e653291f6ad5c29c5bcd4d81ff0558b7227208749",
+  "baseline_available": true,
+  "baseline_map_sha256": "d3e2c698dd719ae8e79ceec782ca8c6ae9e54d9c16f35d954734130b16ebed26",
+  "source_mesh_sha256": "adfe358844c0cfe706e1b19080b377a2e76eafe5b666b083b7c8f674ce8ff1f2",
+  "floor_z_native": 2.527582700043074,
+  "bounds_xy_native": [
+    -14.86,
+    -13.620000000000001,
+    3.4,
+    6.19
+  ],
+  "bounds_xz_habitat": [
+    -14.86,
+    -6.19,
+    3.4,
+    13.620000000000001
+  ],
+  "resolution_m": 0.01,
+  "shape_hw": [
+    1981,
+    1826
+  ],
+  "axes": "native Z-up (x,y,z) -> Habitat (x,z,-y); image columns +native X, rows -native Y = +Habitat Z",
+  "status": "annotation_derived_candidate_requires_review",
+  "flags": [],
+  "floor_classification": "Upward normals nz>0.95; at least 5/7 triangle sample points assigned to same MP3D house level using room floor polygons, <=0.25m height error and <=0.35m XY outside tolerance; stair regions excluded as assignment sources",
+  "wall_rule": "Vertical faces abs(nz)<0.25; section at floor+1.2m; raster stroke 2cm, not a measured physical wall thickness",
+  "scope_rule": "Published annotated floor polygons, without adding ceiling/furniture support or inferring missing rooms. Strict indoor/outdoor status has not been independently audited.",
+  "door_policy": "Raw map uses the combined structural CAD mesh without adding separate door polygons or synthetic cuts. The combined mesh may still contain barriers at doors. Separate closed-door and two-sided-support open-door hypotheses are saved; physical door state is unverified.",
+  "window_policy": "Window annotation remains separate; walls from structural mesh. No ray transparency policy applied.",
+  "stats": {
+    "annotation_floor_m2": 64.51230000000001,
+    "free_m2": 63.768800000000006,
+    "baseline_free_m2": 58.3399,
+    "free_added_vs_baseline_m2": 11.1005,
+    "free_removed_vs_baseline_m2": 5.6716,
+    "components_ge_0_1m2": 2,
+    "component_areas_m2": [
+      39.425000000000004,
+      24.1783
+    ],
+    "door_annotations": 5,
+    "window_annotations": 16,
+    "door_pixels_overlapping_structural_wall": 29,
+    "floor_triangle_area_m2": 64.21832747630569
+  },
+  "limitations": [
+    "Manual annotations still require floor/scope/door-state QA",
+    "Comparison is on the same MP3D building, not cross-scene HM3D comparison",
+    "No automatic changes to approved datasets, queries, split, rays, or RIR assets"
+  ],
+  "seconds": 0.4549577236175537,
+  "topdown_interior_no_hit_fraction": 0.022019360808598478
+}

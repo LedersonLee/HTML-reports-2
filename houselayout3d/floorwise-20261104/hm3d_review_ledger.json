@@ -1,0 +1,217 @@
+{
+  "source_attachment_sha256": "ef5c354cedc7bdd97188ee152cb890005909f573492e803b58c545ad5c45f468",
+  "source_claimed_coverage": {
+    "pages": 11,
+    "images": 33,
+    "mesh_checks": false
+  },
+  "scenes": [
+    {
+      "scene": "00017-oEPjPNSPmzL",
+      "external_visual_verdict": "ACCEPT",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "LOW",
+          "image_region": "Left end of the central corridor and the entrance/top edge of the lower-left room",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00033-oPj9qMxrDEa",
+      "external_visual_verdict": "REPAIR",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "MEDIUM",
+          "image_region": "West/left edge of the central enclosed room, immediately right of the upper-left bedroom",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        },
+        {
+          "number": 2,
+          "severity": "MEDIUM",
+          "image_region": "Upper-right part of the central room, near the dark semicircular patch in the roof-cut",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00108-oStKKWkQ1id",
+      "external_visual_verdict": "REPAIR",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "HIGH",
+          "image_region": "Upper-middle-left rectangular room, to the immediate left of the visible upper-middle bathroom",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00166-RaYrxWt5pR1",
+      "external_visual_verdict": "ACCEPT",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "LOW",
+          "image_region": "Small floating hook-shaped black fragment just left of the right-hand bathroom, around the middle of the image",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00177-VSxVP19Cdyw",
+      "external_visual_verdict": "ACCEPT",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "LOW",
+          "image_region": "Upper-center washroom/utility cluster between the left bedroom and right living area",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00251-wsAYBFtQaL7",
+      "external_visual_verdict": "ACCEPT",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "MEDIUM",
+          "image_region": "Small downward projection at bottom-center/right from the central hall",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00304-X6Pct1msZv5",
+      "external_visual_verdict": "REPAIR",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "HIGH",
+          "image_region": "Tiny isolated white wedge well below the lower-left/middle floorplan edge",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        },
+        {
+          "number": 2,
+          "severity": "MEDIUM",
+          "image_region": "Two short internal black L/line-shaped islands in the large upper living room (one left-of-center, one center-right)",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00404-QN2dRqwd84J",
+      "external_visual_verdict": "REPAIR",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "HIGH",
+          "image_region": "Long horizontal strip across the entire top of the image",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00417-nGhNxKrgBPb",
+      "external_visual_verdict": "INSUFFICIENT EVIDENCE",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "HIGH",
+          "image_region": "Large gray-floored rectangle at bottom-left",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        },
+        {
+          "number": 2,
+          "severity": "LOW",
+          "image_region": "Short row of black protrusions along the kitchen lower edge, around the middle of the plan",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00567-KjZrPggnHm8",
+      "external_visual_verdict": "REPAIR",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "HIGH",
+          "image_region": "Very long tiled strip along the entire bottom border",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        },
+        {
+          "number": 2,
+          "severity": "LOW",
+          "image_region": "Two thin outward spurs on the far left of the upper-left bedroom footprint",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    },
+    {
+      "scene": "00591-JptJPosx1Z6",
+      "external_visual_verdict": "ACCEPT",
+      "issues": [
+        {
+          "number": 1,
+          "severity": "MEDIUM",
+          "image_region": "Small repeated isolated black squares/dots in the central pale-tiled hall",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        },
+        {
+          "number": 2,
+          "severity": "MEDIUM",
+          "image_region": "Diagonal upper-right wing, near the central dark wedge between small rooms",
+          "verification": "unresolved",
+          "mesh_checked_by_us": false,
+          "modification_performed": false
+        }
+      ],
+      "status": "provisional_external_image_review_not_geometry_verification"
+    }
+  ],
+  "existing_selection_changed": false,
+  "interpretation": "Imported as review evidence. Embedded task instructions do not authorize silent repairs or final relabeling."
+}

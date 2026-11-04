@@ -1,0 +1,29 @@
+{
+  "passed_checks": [
+    "Floor triangle assignments are disjoint within each of 16 buildings.",
+    "29 generated floor masks: shape, binary values, height gate and building split group checked.",
+    "Raw free masks equal assigned scope minus walls; open-door additions are confined to explicit bridge masks.",
+    "All 29 render projections align to map bounds within 0.6 render pixels.",
+    "Three mixed-height levels have no generated map."
+  ],
+  "floor_count": 29,
+  "max_render_corner_error_px": 0.24915336434881974,
+  "limits": [
+    "Height consistency is not full floor completeness or indoor-scope verification.",
+    "Door physical states and internal partition completeness remain unverified.",
+    "Paper 33 levels versus MP3D 32 level IDs unresolved."
+  ],
+  "visual_review": {
+    "scope": "All six contact sheets (29 floors) visually inspected; not an exhaustive 3D or doorway audit.",
+    "observations": {
+      "17DRP5sb8fy_L0": "Cleaner outer boundary and removal of large baseline cutouts; internal wall details still need inspection.",
+      "1LXtFkjw3qL_L2": "Large interior has fewer wall lines than baseline; inspect missing versus nonstructural partitions.",
+      "JeFG25nYj2p_L0": "Door hypothesis changes connectivity substantially (11 to 2 components); doorway audit required.",
+      "WYY7iVyf5p8": "Four distinct floor footprints generated; small wall fragments and stair boundaries remain review items.",
+      "e9zR4mvMWw7_L0": "Small isolated lower-level footprint: height assignment alone does not establish utility as a scene."
+    },
+    "all_candidates_require_review": true,
+    "no_final_acceptance": true
+  },
+  "local_html_links_checked": 458
+}

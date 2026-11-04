@@ -1,0 +1,11 @@
+{
+  "policy": "Door leaves assumed open for this alternative only. No claim about scanned door state.",
+  "max_search_each_side_m": 0.4,
+  "jamb_margin_m": 0.03,
+  "min_two_sided_support_fraction": 0.7,
+  "doors": [],
+  "additional_free_m2": 0.0,
+  "components_ge_0_1m2": 1,
+  "raw_components_ge_0_1m2": 1,
+  "physical_state_verified": false
+}

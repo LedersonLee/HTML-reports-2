@@ -1,0 +1,215 @@
+{
+  "policy": "Door leaves assumed open for this alternative only. No claim about scanned door state.",
+  "max_search_each_side_m": 0.4,
+  "jamb_margin_m": 0.03,
+  "min_two_sided_support_fraction": 0.7,
+  "doors": [
+    {
+      "door_index": 0,
+      "width_m": 1.5300683718063097,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 1,
+      "width_m": 1.5279955363345086,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 2,
+      "width_m": 0.7848204385194374,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 3,
+      "width_m": 0.7572781422842502,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 4,
+      "width_m": 0.7458344653269688,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 5,
+      "width_m": 0.8514057072241674,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 6,
+      "width_m": 0.8074112179190979,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 7,
+      "width_m": 0.8599201080896404,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 8,
+      "width_m": 0.8335139552232766,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 9,
+      "width_m": 0.8848377660320264,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 10,
+      "width_m": 0.8918059743889111,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 11,
+      "width_m": 1.6031270729505036,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 12,
+      "width_m": 0.8633709621405123,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 13,
+      "width_m": 0.8073118750178243,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 14,
+      "width_m": 0.7172027650955575,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 15,
+      "width_m": 0.8951532001348499,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 16,
+      "width_m": 0.7361123397016548,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 17,
+      "width_m": 0.8334155781935586,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 18,
+      "width_m": 0.8136887728094283,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 19,
+      "width_m": 0.8120070862555889,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 20,
+      "width_m": 0.8710141490533149,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 21,
+      "width_m": 1.658518463464568,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 22,
+      "width_m": 1.1244555089547101,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 23,
+      "width_m": 0.9560550324943775,
+      "two_sided_support_fraction": 0.9111111111111111,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 24,
+      "width_m": 0.7975224286941226,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 25,
+      "width_m": 0.8709745458261797,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 26,
+      "width_m": 1.3533910746728193,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 27,
+      "width_m": 0.7657589592663285,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 28,
+      "width_m": 0.8048594093001393,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    }
+  ],
+  "additional_free_m2": 0.029500000000000002,
+  "components_ge_0_1m2": 5,
+  "raw_components_ge_0_1m2": 5,
+  "physical_state_verified": false
+}

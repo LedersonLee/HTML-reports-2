@@ -1,0 +1,119 @@
+{
+  "scene": "p5wJjkQkbXX_L0",
+  "building": "p5wJjkQkbXX",
+  "house_level": 0,
+  "split_group": "p5wJjkQkbXX",
+  "floor_assignment": {
+    "house_level": 0,
+    "scene": "p5wJjkQkbXX_L0",
+    "floor_area_m2": 164.40184646950124,
+    "height_bands": [
+      {
+        "height_m": -2.9948522865589364,
+        "area_m2": 164.40184646950124
+      }
+    ],
+    "major_height_span_m": 0.0,
+    "height_range_m": [
+      -3.1000056666666667,
+      -2.724690333333333
+    ],
+    "assignment_median_height_error_m": 0.012710999999999917,
+    "assignment_p95_height_error_m": 0.18621120000000058,
+    "status": "height_consistent_candidate",
+    "triangle_ids": [
+      1166,
+      1177,
+      1178,
+      1179,
+      1180,
+      1206,
+      1207,
+      1208,
+      1219,
+      1220,
+      1237,
+      1238,
+      1275,
+      1276,
+      1277,
+      1278,
+      1281,
+      1282,
+      1301,
+      1302,
+      1311,
+      1312,
+      1337,
+      1338,
+      1364,
+      1365,
+      1366,
+      1377,
+      1378,
+      1379,
+      1380,
+      1387,
+      1388
+    ]
+  },
+  "baseline_scene": "p5wJjkQkbXX_f0",
+  "source": "HouseLayout3D manually annotated MP3D CAD layout",
+  "source_revision": "c9c483e2890293230273f1ed475fd286e3b6cb39",
+  "source_annotation_sha256": "ad7dc23b107ea411ee45b24308a2eb859b37933032956989533101b435051965",
+  "source_doors_sha256": "e890ce360fb053e163446577d00c66697d50346367f3bf9d05eab34aaa433b4c",
+  "source_windows_sha256": "b5cd7c878921aa6807d4ea162a1e69e50bb26a5f99b7b916ba7452c4a0ef4773",
+  "baseline_available": true,
+  "baseline_map_sha256": "9dfc32fde0b342a886b0147aded16ba9c9cf4948d8802af0f62f418885cd374e",
+  "source_mesh_sha256": "e1f6970c245e66020313bb45daedb43da0254ceffc1d6f9496070fae283d1099",
+  "floor_z_native": -2.9948522865589364,
+  "bounds_xy_native": [
+    -14.49,
+    -7.32,
+    17.02,
+    33.14
+  ],
+  "bounds_xz_habitat": [
+    -14.49,
+    -33.14,
+    17.02,
+    7.32
+  ],
+  "resolution_m": 0.01,
+  "shape_hw": [
+    4046,
+    3151
+  ],
+  "axes": "native Z-up (x,y,z) -> Habitat (x,z,-y); image columns +native X, rows -native Y = +Habitat Z",
+  "status": "annotation_derived_candidate_requires_review",
+  "flags": [],
+  "floor_classification": "Upward normals nz>0.95; at least 5/7 triangle sample points assigned to same MP3D house level using room floor polygons, <=0.25m height error and <=0.35m XY outside tolerance; stair regions excluded as assignment sources",
+  "wall_rule": "Vertical faces abs(nz)<0.25; section at floor+1.2m; raster stroke 2cm, not a measured physical wall thickness",
+  "scope_rule": "Published annotated floor polygons, without adding ceiling/furniture support or inferring missing rooms. Strict indoor/outdoor status has not been independently audited.",
+  "door_policy": "Raw map uses the combined structural CAD mesh without adding separate door polygons or synthetic cuts. The combined mesh may still contain barriers at doors. Separate closed-door and two-sided-support open-door hypotheses are saved; physical door state is unverified.",
+  "window_policy": "Window annotation remains separate; walls from structural mesh. No ray transparency policy applied.",
+  "stats": {
+    "annotation_floor_m2": 164.8062,
+    "free_m2": 163.5744,
+    "baseline_free_m2": 170.7356,
+    "free_added_vs_baseline_m2": 6.3547,
+    "free_removed_vs_baseline_m2": 13.5159,
+    "components_ge_0_1m2": 3,
+    "component_areas_m2": [
+      91.17280000000001,
+      68.52890000000001,
+      3.7682
+    ],
+    "door_annotations": 6,
+    "window_annotations": 3,
+    "door_pixels_overlapping_structural_wall": 339,
+    "floor_triangle_area_m2": 164.40184646950124
+  },
+  "limitations": [
+    "Manual annotations still require floor/scope/door-state QA",
+    "Comparison is on the same MP3D building, not cross-scene HM3D comparison",
+    "No automatic changes to approved datasets, queries, split, rays, or RIR assets"
+  ],
+  "seconds": 7.782566070556641,
+  "topdown_interior_no_hit_fraction": 0.012806957615585233
+}

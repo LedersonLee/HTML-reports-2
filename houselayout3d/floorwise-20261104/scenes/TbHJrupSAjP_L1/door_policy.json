@@ -1,0 +1,82 @@
+{
+  "policy": "Door leaves assumed open for this alternative only. No claim about scanned door state.",
+  "max_search_each_side_m": 0.4,
+  "jamb_margin_m": 0.03,
+  "min_two_sided_support_fraction": 0.7,
+  "doors": [
+    {
+      "door_index": 0,
+      "width_m": 1.8569829552132244,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 1,
+      "width_m": 0.7561265323440884,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 2,
+      "width_m": 0.9639496135412853,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 3,
+      "width_m": 0.7593425451358603,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 4,
+      "width_m": 0.928818726070098,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 5,
+      "width_m": 1.5055266705576955,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 6,
+      "width_m": 0.6458042604556267,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 7,
+      "width_m": 0.8000003655810517,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 8,
+      "width_m": 0.8748588219218718,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 9,
+      "width_m": 1.4642542124575706,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    }
+  ],
+  "additional_free_m2": 0.0,
+  "components_ge_0_1m2": 3,
+  "raw_components_ge_0_1m2": 3,
+  "physical_state_verified": false
+}

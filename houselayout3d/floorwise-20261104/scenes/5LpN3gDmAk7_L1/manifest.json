@@ -1,0 +1,140 @@
+{
+  "scene": "5LpN3gDmAk7_L1",
+  "building": "5LpN3gDmAk7",
+  "house_level": 1,
+  "split_group": "5LpN3gDmAk7",
+  "floor_assignment": {
+    "house_level": 1,
+    "scene": "5LpN3gDmAk7_L1",
+    "floor_area_m2": 158.65779473099013,
+    "height_bands": [
+      {
+        "height_m": 2.969503995948689,
+        "area_m2": 153.27080242888337
+      },
+      {
+        "height_m": 3.2246091827067045,
+        "area_m2": 5.386992302106763
+      }
+    ],
+    "major_height_span_m": 0.25510518675801563,
+    "height_range_m": [
+      2.718132,
+      3.226691
+    ],
+    "assignment_median_height_error_m": 0.013794741666666832,
+    "assignment_p95_height_error_m": 0.05559360000000019,
+    "status": "height_consistent_candidate",
+    "triangle_ids": [
+      163,
+      164,
+      165,
+      166,
+      185,
+      186,
+      189,
+      190,
+      209,
+      210,
+      213,
+      214,
+      245,
+      246,
+      261,
+      262,
+      265,
+      266,
+      285,
+      286,
+      289,
+      290,
+      319,
+      320,
+      321,
+      322,
+      337,
+      338,
+      341,
+      342,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      409,
+      410,
+      415,
+      416,
+      417,
+      418,
+      454,
+      455,
+      586,
+      587,
+      768,
+      769,
+      776,
+      777
+    ]
+  },
+  "baseline_scene": "5LpN3gDmAk7_f1",
+  "source": "HouseLayout3D manually annotated MP3D CAD layout",
+  "source_revision": "c9c483e2890293230273f1ed475fd286e3b6cb39",
+  "source_annotation_sha256": "5f19e6673e5ec6170af8ce3c700616a0307defebc2e8761517c183e659470a57",
+  "source_doors_sha256": "2f31d08b57060ff764b4311a6e603f1090984d5bb5b1c32ab8d731fcfa210242",
+  "source_windows_sha256": "80666ce753807cd427952f20942490c09dacb41c6d1b3244b08ecc1f748a00f1",
+  "baseline_available": true,
+  "baseline_map_sha256": "c2bd31228d36f7c7a2d0cbc4436e63309888cbedfa2577a72f3f9254e691ec12",
+  "source_mesh_sha256": "d9fc7825af92ec6a9332ce1e53eec52bc88d8b260b6d55c8d9765b4b0f61ef07",
+  "floor_z_native": 2.978165717735652,
+  "bounds_xy_native": [
+    -6.01,
+    -19.0,
+    20.75,
+    7.21
+  ],
+  "bounds_xz_habitat": [
+    -6.01,
+    -7.21,
+    20.75,
+    19.0
+  ],
+  "resolution_m": 0.01,
+  "shape_hw": [
+    2621,
+    2676
+  ],
+  "axes": "native Z-up (x,y,z) -> Habitat (x,z,-y); image columns +native X, rows -native Y = +Habitat Z",
+  "status": "annotation_derived_candidate_requires_review",
+  "flags": [],
+  "floor_classification": "Upward normals nz>0.95; at least 5/7 triangle sample points assigned to same MP3D house level using room floor polygons, <=0.25m height error and <=0.35m XY outside tolerance; stair regions excluded as assignment sources",
+  "wall_rule": "Vertical faces abs(nz)<0.25; section at floor+1.2m; raster stroke 2cm, not a measured physical wall thickness",
+  "scope_rule": "Published annotated floor polygons, without adding ceiling/furniture support or inferring missing rooms. Strict indoor/outdoor status has not been independently audited.",
+  "door_policy": "Raw map uses the combined structural CAD mesh without adding separate door polygons or synthetic cuts. The combined mesh may still contain barriers at doors. Separate closed-door and two-sided-support open-door hypotheses are saved; physical door state is unverified.",
+  "window_policy": "Window annotation remains separate; walls from structural mesh. No ray transparency policy applied.",
+  "stats": {
+    "annotation_floor_m2": 159.0582,
+    "free_m2": 157.65050000000002,
+    "baseline_free_m2": 236.2261,
+    "free_added_vs_baseline_m2": 11.6208,
+    "free_removed_vs_baseline_m2": 90.1964,
+    "components_ge_0_1m2": 3,
+    "component_areas_m2": [
+      157.0681,
+      0.12290000000000001,
+      0.1033
+    ],
+    "door_annotations": 8,
+    "window_annotations": 9,
+    "door_pixels_overlapping_structural_wall": 59,
+    "floor_triangle_area_m2": 158.65779473099013
+  },
+  "limitations": [
+    "Manual annotations still require floor/scope/door-state QA",
+    "Comparison is on the same MP3D building, not cross-scene HM3D comparison",
+    "No automatic changes to approved datasets, queries, split, rays, or RIR assets"
+  ],
+  "seconds": 0.9620156288146973,
+  "topdown_interior_no_hit_fraction": 0.019554107103177544
+}

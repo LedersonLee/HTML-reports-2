@@ -1,0 +1,33 @@
+{
+  "policy": "Door leaves assumed open for this alternative only. No claim about scanned door state.",
+  "max_search_each_side_m": 0.4,
+  "jamb_margin_m": 0.03,
+  "min_two_sided_support_fraction": 0.7,
+  "doors": [
+    {
+      "door_index": 0,
+      "width_m": 0.7491034740122433,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 1,
+      "width_m": 0.6960661224822191,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 2,
+      "width_m": 0.6717863793680163,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    }
+  ],
+  "additional_free_m2": 0.0014000000000000002,
+  "components_ge_0_1m2": 1,
+  "raw_components_ge_0_1m2": 1,
+  "physical_state_verified": false
+}

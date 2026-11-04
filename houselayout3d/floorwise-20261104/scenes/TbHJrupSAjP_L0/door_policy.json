@@ -1,0 +1,75 @@
+{
+  "policy": "Door leaves assumed open for this alternative only. No claim about scanned door state.",
+  "max_search_each_side_m": 0.4,
+  "jamb_margin_m": 0.03,
+  "min_two_sided_support_fraction": 0.7,
+  "doors": [
+    {
+      "door_index": 0,
+      "width_m": 0.755062810949336,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 1,
+      "width_m": 1.0266454784569725,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 2,
+      "width_m": 0.69109796522695,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 3,
+      "width_m": 1.5710019827542805,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 4,
+      "width_m": 0.6742730597637083,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 5,
+      "width_m": 0.7308013044707323,
+      "two_sided_support_fraction": 1.0,
+      "applied": true,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 6,
+      "width_m": 0.7696376492661547,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 7,
+      "width_m": 0.8567262221049483,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    },
+    {
+      "door_index": 8,
+      "width_m": 1.5010257698265155,
+      "two_sided_support_fraction": 0.0,
+      "applied": false,
+      "status": "open_state_hypothesis_only"
+    }
+  ],
+  "additional_free_m2": 0.0025,
+  "components_ge_0_1m2": 3,
+  "raw_components_ge_0_1m2": 3,
+  "physical_state_verified": false
+}
