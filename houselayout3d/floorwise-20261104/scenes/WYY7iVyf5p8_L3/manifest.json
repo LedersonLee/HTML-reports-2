@@ -102,5 +102,9 @@
     "No automatic changes to approved datasets, queries, split, rays, or RIR assets"
   ],
   "seconds": 0.20348072052001953,
-  "topdown_interior_no_hit_fraction": 0.02428365471256082
+  "topdown_interior_no_hit_fraction": 0.02428365471256082,
+  "user_review": {
+    "decision": "unreviewed_candidate",
+    "eligible_for_sampling": false
+  }
 }

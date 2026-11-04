@@ -13,5 +13,12 @@
   "split_policy": "No split created. All floors from a building must remain in the same split.",
   "source_revision": "c9c483e2890293230273f1ed475fd286e3b6cb39",
   "baseline_available_floors": 22,
-  "source_downloaded_bytes": 1441413
+  "source_downloaded_bytes": 1441413,
+  "user_review_counts": {
+    "excluded": 1,
+    "conditional": 1,
+    "held": 1,
+    "other_unapproved": 26,
+    "ready_for_sampling": 0
+  }
 }

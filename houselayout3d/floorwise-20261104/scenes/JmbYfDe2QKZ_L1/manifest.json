@@ -113,5 +113,16 @@
     "No automatic changes to approved datasets, queries, split, rays, or RIR assets"
   ],
   "seconds": 0.4549577236175537,
-  "topdown_interior_no_hit_fraction": 0.022019360808598478
+  "topdown_interior_no_hit_fraction": 0.022019360808598478,
+  "user_review": {
+    "decision": "hold",
+    "eligible_for_sampling": false,
+    "note": "사용 판단 보류. 채택 시 2DFP Free 내부 위치와 유의미한 RGB observation 조건 모두 필요.",
+    "required_before_sampling": [
+      "Explicit inclusion decision after RGB examples",
+      "Camera position in retained free mask with clearance",
+      "View-level usable indoor coverage, depth validity and floor consistency checks"
+    ],
+    "rgb_filter_implemented": false
+  }
 }

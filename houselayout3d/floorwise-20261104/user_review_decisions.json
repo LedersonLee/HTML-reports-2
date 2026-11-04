@@ -1,0 +1,36 @@
+{
+  "review_date": "2026-11-04",
+  "source": "Explicit user review in this conversation",
+  "decisions": {
+    "1LXtFkjw3qL_L2": {
+      "decision": "exclude",
+      "eligible_for_sampling": false,
+      "note": "사용자 요청으로 완전 제외. 원본 및 검토 증거만 보존."
+    },
+    "5LpN3gDmAk7_L1": {
+      "decision": "conditional",
+      "eligible_for_sampling": false,
+      "note": "조건부 후보: 누락된 방 방향을 보는 RGB를 제외해야 함. 테라스/외부 가능성은 사용자 가설이며 미확인.",
+      "required_before_sampling": [
+        "Camera position inside retained floor free mask with clearance",
+        "Per-view frustum/depth visibility check against omitted or out-of-scope geometry",
+        "Reject views directed toward omitted room regions; establish reviewable thresholds before generation"
+      ],
+      "rgb_filter_implemented": false
+    },
+    "JmbYfDe2QKZ_L1": {
+      "decision": "hold",
+      "eligible_for_sampling": false,
+      "note": "사용 판단 보류. 채택 시 2DFP Free 내부 위치와 유의미한 RGB observation 조건 모두 필요.",
+      "required_before_sampling": [
+        "Explicit inclusion decision after RGB examples",
+        "Camera position in retained free mask with clearance",
+        "View-level usable indoor coverage, depth validity and floor consistency checks"
+      ],
+      "rgb_filter_implemented": false
+    }
+  },
+  "other_scenes": "Remain unapproved candidates; general positive feedback is not per-scene acceptance.",
+  "split_policy": "All floors of a building stay in the same split.",
+  "rgb_policy": "A camera inside Free does not guarantee its field of view stays inside the usable scope. Position and orientation/visibility must both be checked. No view filtering executed yet."
+}
