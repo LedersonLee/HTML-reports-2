@@ -1,0 +1,29 @@
+{
+  "HxpKQynjfin_L0": {
+    "sampled_positions": 14,
+    "clearance_pass_positions": 1,
+    "position_rejected_at_0_3m": 13,
+    "view_scope_rejections": 5,
+    "views_with_nohit_among_scope_rejections": 3,
+    "old_near_view_rejections": 1,
+    "restored_near_view": "p0008_y315",
+    "restored_depth_valid_fraction": 0.997783203125,
+    "restored_feature_median_m": 0.5831398367881775,
+    "final_views": 3,
+    "clearance_sensitivity_counts": {
+      "0.1": 14,
+      "0.15": 10,
+      "0.2": 9,
+      "0.25": 4,
+      "0.3": 1
+    },
+    "note": "Clearance proxy is a conservative 0.3m admission condition, not a proof that all rejected positions collide. Reduced thresholds have not been approved or used."
+  },
+  "manual_audit": {
+    "restored_Hxp_near_view_checked": true,
+    "5Lp_new_hole_views_sample_count": 8,
+    "all_new_views_visually_checked": false,
+    "5Lp_sample_includes_superseded_over_10pct_examples": true
+  },
+  "policy_v2": "Near-view thresholds removed for all floors. 5LpL1 hole fraction <0.1, no-hit/ambiguous feature depths masked; scope gate unchanged."
+}

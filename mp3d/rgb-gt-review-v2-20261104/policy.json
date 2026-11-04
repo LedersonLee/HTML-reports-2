@@ -1,0 +1,42 @@
+{
+  "version": "mp3d_review_capture_v2",
+  "position_spacing_m": 1.0,
+  "fp_clearance_m": 0.15,
+  "floor_snap_max_dy_m": 0.25,
+  "furnished_clearance_heights_m": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "furnished_clearance_m": 0.3,
+  "clearance_metric": "minimum 5th percentile of positive depth in central third over four cardinal views at three heights",
+  "width": 640,
+  "height": 480,
+  "hfov_deg": 106.2602,
+  "camera_above_navmesh_floor_m": 1.5,
+  "depth_near_m": 0.01,
+  "depth_far_m": 50.0,
+  "yaws_deg": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "nohit": "reject any nonambiguous no-hit at the 40 feature centres",
+  "minimum_valid_full_depth_fraction": 0.98,
+  "minimum_stable_feature_fraction": 0.75,
+  "scope": "Reject horizontal feature rays crossing >0.3m beyond assigned floor scope dilated 0.25m before furnished hit, or >5% central-band sampled depth endpoints outside dilated scope. No map-vs-furniture depth agreement required.",
+  "approval": "pending_user_review",
+  "RIR_generated": false,
+  "floor_overrides": {
+    "5LpN3gDmAk7_L1": {
+      "maximum_full_image_nohit_fraction_exclusive": 0.5,
+      "nohit_feature_rays": "retain as invalid masked values",
+      "floor_scope_gate": "unchanged; missing-annotation rooms remain excluded"
+    }
+  }
+}

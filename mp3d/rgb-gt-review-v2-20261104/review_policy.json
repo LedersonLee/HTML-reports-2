@@ -1,0 +1,36 @@
+{
+  "name": "retain_valid_near_surface_v2",
+  "near_surface_rejection_enabled": false,
+  "near_surface_tag_only": {
+    "median_below_m": 0.8,
+    "or_p90_below_m": 1.5
+  },
+  "reason": "User requires visually ambiguous observations to evaluate acoustic disambiguation. Near depth is valid and is not an exclusion reason.",
+  "unchanged_capture_gates": [
+    "furnished clearance 0.3m",
+    "depth no-hit",
+    "stable feature fraction",
+    "floor scope"
+  ],
+  "source_capture": "../capture_v1",
+  "restored_views": 1439,
+  "approval": "pending_user_review",
+  "floor_overrides": {
+    "5LpN3gDmAk7_L1": {
+      "nohit_fraction_lt": 0.1,
+      "missing_floorplan_room_views": "exclude using unchanged scope gate and manual review",
+      "hole_proxy": "nonfinite or nonpositive full-image rendered depth; textured defects with valid depth are not detected",
+      "invalid_depth": "masked, never filled as ground truth"
+    }
+  },
+  "threshold_history": [
+    {
+      "maximum_nohit_fraction_exclusive": 0.5,
+      "status": "superseded_before_publication"
+    },
+    {
+      "maximum_nohit_fraction_exclusive": 0.1,
+      "status": "current_user_instruction"
+    }
+  ]
+}
