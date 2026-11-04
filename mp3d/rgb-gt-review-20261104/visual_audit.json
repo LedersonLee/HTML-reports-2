@@ -1,0 +1,11 @@
+{
+  "status": "pending_user_review",
+  "method": "All 28 floor contact sheets visually inspected, up to 4 evenly spaced accepted views per floor; not exhaustive manual review.",
+  "sample_count": 110,
+  "flags": {
+    "HxpKQynjfin_L0": "Only 2 accepted views; insufficient coverage should be reviewed.",
+    "5LpN3gDmAk7_L1": "Review missing-room directions.",
+    "JmbYfDe2QKZ_L1": "Review semantic usefulness.",
+    "general": "Scan texture/mesh artifacts and baked exterior window imagery remain possible after geometric filtering."
+  }
+}

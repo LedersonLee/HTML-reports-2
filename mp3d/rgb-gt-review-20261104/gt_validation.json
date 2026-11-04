@@ -1,0 +1,371 @@
+{
+  "gpu_used": false,
+  "scene_count": 28,
+  "total_views": 4343,
+  "scenes": [
+    {
+      "scene": "17DRP5sb8fy_L0",
+      "rows": 206,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        206,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "885c848e1c2c9be6dc5d1fb6479d0bd010ee779357569405b46f8add23aee7bf"
+    },
+    {
+      "scene": "2t7WUuJeko7_L0",
+      "rows": 105,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        105,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "9b7f7a8a81096e362fa7888ce62d5445af732a82d67c47affd090f8ab92c8466"
+    },
+    {
+      "scene": "5LpN3gDmAk7_L0",
+      "rows": 182,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        182,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "3c1e46a4cd4f6ee60c86e388dd11c60803c7b8eb3fa4abeb7271d3ec8be5552d"
+    },
+    {
+      "scene": "5LpN3gDmAk7_L1",
+      "rows": 136,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        136,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "b339d022e43faf35266330cc144f9a2151be7b8743270b04e8c2578f7dcf406f"
+    },
+    {
+      "scene": "HxpKQynjfin_L0",
+      "rows": 2,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        2,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "8931e5fa4c7ca8f00407f40873ba34237fab63ea4b5ffa7c2754811a230319be"
+    },
+    {
+      "scene": "JeFG25nYj2p_L0",
+      "rows": 296,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        296,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "a0dd2ac3c96c869a555d131a96f7860c562888a43751d63abb8b387955ce8223"
+    },
+    {
+      "scene": "JmbYfDe2QKZ_L0",
+      "rows": 212,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        212,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "0b661d6636c80b9ef86bb0270b6ca0d960bd308a88ebcca41dde64a1e6e77113"
+    },
+    {
+      "scene": "JmbYfDe2QKZ_L1",
+      "rows": 29,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        29,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "76b61e06290dbd9e16ed181869487680bb4ad19f1b87000df18610c01b9f006e"
+    },
+    {
+      "scene": "S9hNv5qa7GM_L0",
+      "rows": 330,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        330,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "81c20f56ce317dbb3781c8b956d3f769be5c926c98f602eefc41b9d14552e807"
+    },
+    {
+      "scene": "S9hNv5qa7GM_L1",
+      "rows": 124,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        124,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "75c3ed527936a09ed41146ad83dea47996dcda02856d944b1cede2e5fe382632"
+    },
+    {
+      "scene": "TbHJrupSAjP_L0",
+      "rows": 149,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        149,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "f83851edbadcd808f6be8e448d825c00238b7f608dee920723c50ddca4bce54a"
+    },
+    {
+      "scene": "TbHJrupSAjP_L1",
+      "rows": 142,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        142,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "56a653f553edf050fd4f67c8b1ab295c2d485ed0629aedfcbbb185184a5fa16d"
+    },
+    {
+      "scene": "TbHJrupSAjP_L2",
+      "rows": 105,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        105,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "bb9ba70153bce5f53be1845acc7337f59a46e0a82ea1ee1eba985044b9fa99f7"
+    },
+    {
+      "scene": "WYY7iVyf5p8_L0",
+      "rows": 20,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        20,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "3a01a733441d0c50b5f68dae666efe05cd657d41821524c6a7655c686fea515e"
+    },
+    {
+      "scene": "WYY7iVyf5p8_L1",
+      "rows": 39,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        39,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "f966f66f69ea62b89d2c535bad8d6b85e9cd074801daad990cbe9e338a280f34"
+    },
+    {
+      "scene": "WYY7iVyf5p8_L2",
+      "rows": 4,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        4,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "d37a5b45d863bcf7385a4dfa2e2079e954bd917dac99920f22d8a834a6dfb420"
+    },
+    {
+      "scene": "WYY7iVyf5p8_L3",
+      "rows": 22,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        22,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "9fb8441042b1d6d480e3b0864a41f29f7aa8dda9ba40983454f1723b0936e3f4"
+    },
+    {
+      "scene": "YFuZgdQ5vWj_L0",
+      "rows": 29,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        29,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "c41eea63c031728eb598ffb26b09ce42ad210a9b36934fb4bdb17df82b6bb631"
+    },
+    {
+      "scene": "YFuZgdQ5vWj_L1",
+      "rows": 56,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        56,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "f4a34ce69d38a580a52efafa6b1f8c5477892f1eeda8172be24191274091dcf0"
+    },
+    {
+      "scene": "e9zR4mvMWw7_L0",
+      "rows": 19,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        19,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "ee1631e445d28239550d2c2859aa61ec5c38a60b13419eb5b8b72c14cc9ccb8a"
+    },
+    {
+      "scene": "e9zR4mvMWw7_L2",
+      "rows": 98,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        98,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "8195f9c2ab433165f5f6722a03c2304275c5d564af7a561cb41fbc59a55fbb46"
+    },
+    {
+      "scene": "i5noydFURQK_L0",
+      "rows": 86,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        86,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "1573b2e877b31bbeb7c87a1ab78e423defecbf7735245e50a3d01273e8f4ac5e"
+    },
+    {
+      "scene": "i5noydFURQK_L1",
+      "rows": 90,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        90,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "b1197dc2d7ac8596339f986e963c827104808c58dfd5c70e59e3d47dc4a53c09"
+    },
+    {
+      "scene": "jtcxE69GiFV_L0",
+      "rows": 409,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        409,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "0efbd93e7624739680c121e742a9d36abfce49509b235506c68c34677a7de3fa"
+    },
+    {
+      "scene": "jtcxE69GiFV_L1",
+      "rows": 187,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        187,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "4d0d276be61fda9c645702bf2161b7bca29bac310a937e745475cb87a066debd"
+    },
+    {
+      "scene": "p5wJjkQkbXX_L0",
+      "rows": 252,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        252,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "b87418074a6cd9a0702ad977c9dc7fafdb888571a272750c10cf37e262e3ba79"
+    },
+    {
+      "scene": "p5wJjkQkbXX_L1",
+      "rows": 516,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        516,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "3a89f27662eef09944b110c31f282bcbbece76eec5389f382e0be63e0db7a701"
+    },
+    {
+      "scene": "r47D5H71a5s_L0",
+      "rows": 498,
+      "rgb_depth_hashes_verified": true,
+      "pose_height_verified": true,
+      "gt_shape": [
+        498,
+        40
+      ],
+      "finite_positive_structural_gt": true,
+      "ray_frame_analytic_check": true,
+      "gt_sha256": "128a15899df00ae1c1a2fa35f45d6323340e277824f8b7bb11b44c573eff9cea"
+    }
+  ]
+}

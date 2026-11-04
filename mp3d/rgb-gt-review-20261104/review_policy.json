@@ -1,0 +1,9 @@
+{
+  "name": "geometric_view_utility_v1",
+  "minimum_median_furnished_forward_depth_m": 0.8,
+  "minimum_p90_furnished_forward_depth_m": 1.5,
+  "purpose": "Exclude views dominated by a near wall/object. This is a geometric proxy, not semantic validation or model-performance selection.",
+  "same_policy_all_splits": true,
+  "raw_capture_records_preserved": true,
+  "approval": "pending_user_review"
+}
