@@ -1,0 +1,26 @@
+{
+  "scene": "00404-QN2dRqwd84J",
+  "resolution_m": 0.01,
+  "shape_hw": [
+    1170,
+    1673
+  ],
+  "bounds_xy_native": [
+    -5.089999675750732,
+    -4.380000114440918,
+    11.639999389648438,
+    7.319999694824219
+  ],
+  "floor_z_native": 0.0022110252175480127,
+  "construction": "semantic floor+ceiling+explicit furniture-footprint support, persistent vertical structural faces, explicit short-gap and small-hole inference; no old map/navmesh inherited",
+  "limitations": [
+    "Ceiling and selected furniture support are inferred floor footprints, not observed floor.",
+    "Unknown large holes retained for inspection; black occupancy does not establish a physical wall.",
+    "No MP3D house polygon ground truth exists in this pipeline.",
+    "Candidate only; no query/depth/RIR/split generation."
+  ],
+  "source_hashes": {
+    "QN2dRqwd84J.semantic.glb": "a1792304d9f8a170b20f98ad9390855f4d8aa021f42f67d36ddd507aacb4c92d",
+    "QN2dRqwd84J.semantic.txt": "47eea47c076ce265b20352f0718f4226e78404ed73fe0de05d62aa3ad7dd840d"
+  }
+}
