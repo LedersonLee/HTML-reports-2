@@ -2,12 +2,8 @@
   "buildings": 16,
   "original_MP3D_house_level_ids": 32,
   "generated_floor_candidates": 29,
-  "held_split_level_ids": [
-    "1LXtFkjw3qL_L0",
-    "1LXtFkjw3qL_L1",
-    "e9zR4mvMWw7_L1"
-  ],
-  "not_final_accepted_scenes": true,
+  "held_split_level_ids": [],
+  "not_final_accepted_scenes": false,
   "paper_reported_levels": 33,
   "level_count_discrepancy": "32 is the original MP3D house level-ID count, not a reproduction of the paper's 33-level annotation convention. The difference remains unresolved.",
   "split_policy": "No split created. All floors from a building must remain in the same split.",
@@ -15,10 +11,17 @@
   "baseline_available_floors": 22,
   "source_downloaded_bytes": 1441413,
   "user_review_counts": {
-    "excluded": 1,
-    "conditional": 1,
-    "held": 1,
-    "other_unapproved": 26,
-    "ready_for_sampling": 0
-  }
+    "selected": 28,
+    "with_additional_rgb_conditions": 2,
+    "excluded": 4,
+    "held": 0
+  },
+  "selected_floor_count": 28,
+  "selected_building_count": 15,
+  "rgb_generation_ready": false,
+  "excluded_mixed_height_level_ids": [
+    "1LXtFkjw3qL_L0",
+    "1LXtFkjw3qL_L1",
+    "e9zR4mvMWw7_L1"
+  ]
 }

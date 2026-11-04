@@ -19,18 +19,34 @@
       "rgb_filter_implemented": false
     },
     "JmbYfDe2QKZ_L1": {
-      "decision": "hold",
+      "decision": "conditional",
       "eligible_for_sampling": false,
-      "note": "사용 판단 보류. 채택 시 2DFP Free 내부 위치와 유의미한 RGB observation 조건 모두 필요.",
+      "note": "28개 활용 대상에 포함. 2DFP Free 내부에서 유의미한 RGB observation만 사용하는 조건 유지.",
       "required_before_sampling": [
-        "Explicit inclusion decision after RGB examples",
         "Camera position in retained free mask with clearance",
         "View-level usable indoor coverage, depth validity and floor consistency checks"
       ],
       "rgb_filter_implemented": false
+    },
+    "1LXtFkjw3qL_L0": {
+      "decision": "exclude",
+      "eligible_for_sampling": false,
+      "note": "높이 혼재로 보류했던 층. 사용자 요청으로 활용 대상에서 제외 확정."
+    },
+    "1LXtFkjw3qL_L1": {
+      "decision": "exclude",
+      "eligible_for_sampling": false,
+      "note": "높이 혼재로 보류했던 층. 사용자 요청으로 활용 대상에서 제외 확정."
+    },
+    "e9zR4mvMWw7_L1": {
+      "decision": "exclude",
+      "eligible_for_sampling": false,
+      "note": "높이 혼재로 보류했던 층. 사용자 요청으로 활용 대상에서 제외 확정."
     }
   },
-  "other_scenes": "Remain unapproved candidates; general positive feedback is not per-scene acceptance.",
+  "other_scenes": "User selected all 28 remaining floors for dataset preparation. RGB generation and filtering have not yet been performed.",
   "split_policy": "All floors of a building stay in the same split.",
-  "rgb_policy": "A camera inside Free does not guarantee its field of view stays inside the usable scope. Position and orientation/visibility must both be checked. No view filtering executed yet."
+  "rgb_policy": "A camera inside Free does not guarantee its field of view stays inside the usable scope. Position and orientation/visibility must both be checked. No view filtering executed yet.",
+  "selected_floor_count": 28,
+  "selected_building_count": 15
 }

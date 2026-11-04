@@ -153,7 +153,8 @@
   "seconds": 0.13698935508728027,
   "topdown_interior_no_hit_fraction": 0.09740339846392614,
   "user_review": {
-    "decision": "unreviewed_candidate",
-    "eligible_for_sampling": false
+    "decision": "selected_for_preparation",
+    "eligible_for_sampling": false,
+    "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
   }
 }

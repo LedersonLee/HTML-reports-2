@@ -145,8 +145,9 @@
     "seconds": 0.3474123477935791,
     "topdown_interior_no_hit_fraction": 0.011904348477731209,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -371,8 +372,9 @@
     "seconds": 0.16217517852783203,
     "topdown_interior_no_hit_fraction": 0.007558718555969065,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -521,8 +523,9 @@
     "seconds": 1.2731926441192627,
     "topdown_interior_no_hit_fraction": 0.0031966286360365914,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -798,8 +801,9 @@
     "seconds": 0.0802767276763916,
     "topdown_interior_no_hit_fraction": 0.02685575725622449,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -1048,8 +1052,9 @@
     "seconds": 0.7846760749816895,
     "topdown_interior_no_hit_fraction": 0.030136974743831497,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -1188,8 +1193,9 @@
     "seconds": 1.5974037647247314,
     "topdown_interior_no_hit_fraction": 0.01420312362556532,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -1309,11 +1315,10 @@
     "seconds": 0.4549577236175537,
     "topdown_interior_no_hit_fraction": 0.022019360808598478,
     "user_review": {
-      "decision": "hold",
+      "decision": "conditional",
       "eligible_for_sampling": false,
-      "note": "사용 판단 보류. 채택 시 2DFP Free 내부 위치와 유의미한 RGB observation 조건 모두 필요.",
+      "note": "28개 활용 대상에 포함. 2DFP Free 내부에서 유의미한 RGB observation만 사용하는 조건 유지.",
       "required_before_sampling": [
-        "Explicit inclusion decision after RGB examples",
         "Camera position in retained free mask with clearance",
         "View-level usable indoor coverage, depth validity and floor consistency checks"
       ],
@@ -1466,8 +1471,9 @@
     "seconds": 2.8975636959075928,
     "topdown_interior_no_hit_fraction": 0.006913344590460808,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -1610,8 +1616,9 @@
     "seconds": 0.5443830490112305,
     "topdown_interior_no_hit_fraction": 0.005000354635080502,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -1755,8 +1762,9 @@
     "seconds": 2.823359251022339,
     "topdown_interior_no_hit_fraction": 0.02655688001976557,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -1917,8 +1925,9 @@
     "seconds": 0.47235608100891113,
     "topdown_interior_no_hit_fraction": 0.014390219121482034,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2091,8 +2100,9 @@
     "seconds": 0.48209071159362793,
     "topdown_interior_no_hit_fraction": 0.018487081925338582,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2208,8 +2218,9 @@
     "seconds": 2.623523235321045,
     "topdown_interior_no_hit_fraction": 0.03940962928265525,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2324,8 +2335,9 @@
     "seconds": 0.23912858963012695,
     "topdown_interior_no_hit_fraction": 0.08078013501513838,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2483,8 +2495,9 @@
     "seconds": 0.13698935508728027,
     "topdown_interior_no_hit_fraction": 0.09740339846392614,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2593,8 +2606,9 @@
     "seconds": 0.20348072052001953,
     "topdown_interior_no_hit_fraction": 0.02428365471256082,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2717,8 +2731,9 @@
     "seconds": 3.639463186264038,
     "topdown_interior_no_hit_fraction": 0.0010964795554467355,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2869,8 +2884,9 @@
     "seconds": 0.34488677978515625,
     "topdown_interior_no_hit_fraction": 0.021507963560777707,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -2959,8 +2975,9 @@
     "seconds": 2.1400349140167236,
     "topdown_interior_no_hit_fraction": 0.0008983186485801217,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -3111,8 +3128,9 @@
     "seconds": 0.5136001110076904,
     "topdown_interior_no_hit_fraction": 0.03733984443829134,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -3226,8 +3244,9 @@
     "seconds": 2.9902303218841553,
     "topdown_interior_no_hit_fraction": 0.025616527288539845,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -3374,8 +3393,9 @@
     "seconds": 0.21080350875854492,
     "topdown_interior_no_hit_fraction": 0.019265867378828343,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -3618,8 +3638,9 @@
     "seconds": 7.468428373336792,
     "topdown_interior_no_hit_fraction": 0.06470864252338418,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -3815,8 +3836,9 @@
     "seconds": 1.3318946361541748,
     "topdown_interior_no_hit_fraction": 0.06405314874174876,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -3938,8 +3960,9 @@
     "seconds": 7.782566070556641,
     "topdown_interior_no_hit_fraction": 0.012806957615585233,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -4197,8 +4220,9 @@
     "seconds": 1.9224040508270264,
     "topdown_interior_no_hit_fraction": 0.01021735726016616,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   },
   {
@@ -4430,8 +4454,9 @@
     "seconds": 2.6216747760772705,
     "topdown_interior_no_hit_fraction": 0.05483847547338205,
     "user_review": {
-      "decision": "unreviewed_candidate",
-      "eligible_for_sampling": false
+      "decision": "selected_for_preparation",
+      "eligible_for_sampling": false,
+      "note": "사용자가 28개 활용 대상으로 선정. RGB 생성·품질 필터 적용 전."
     }
   }
 ]

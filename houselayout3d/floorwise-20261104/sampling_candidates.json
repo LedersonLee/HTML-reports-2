@@ -1,21 +1,13 @@
 {
-  "ready_for_sampling": [],
-  "excluded": [
-    "1LXtFkjw3qL_L2"
-  ],
-  "conditional": [
-    "5LpN3gDmAk7_L1"
-  ],
-  "held": [
-    "JmbYfDe2QKZ_L1"
-  ],
-  "remaining_unapproved_candidates": [
+  "selected_for_preparation": [
     "17DRP5sb8fy_L0",
     "2t7WUuJeko7_L0",
     "5LpN3gDmAk7_L0",
+    "5LpN3gDmAk7_L1",
     "HxpKQynjfin_L0",
     "JeFG25nYj2p_L0",
     "JmbYfDe2QKZ_L0",
+    "JmbYfDe2QKZ_L1",
     "S9hNv5qa7GM_L0",
     "S9hNv5qa7GM_L1",
     "TbHJrupSAjP_L0",
@@ -36,5 +28,18 @@
     "p5wJjkQkbXX_L0",
     "p5wJjkQkbXX_L1",
     "r47D5H71a5s_L0"
-  ]
+  ],
+  "ready_for_sampling": [],
+  "excluded": [
+    "1LXtFkjw3qL_L2",
+    "1LXtFkjw3qL_L0",
+    "1LXtFkjw3qL_L1",
+    "e9zR4mvMWw7_L1"
+  ],
+  "conditional_rgb_requirements": [
+    "5LpN3gDmAk7_L1",
+    "JmbYfDe2QKZ_L1"
+  ],
+  "held": [],
+  "note": "Selection confirmed; RGB generation/filtering is pending."
 }
