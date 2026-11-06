@@ -43,3 +43,9 @@ to avoid adding to its near-limit published footprint.
 
 Existing report source data, original repository working tree, training queues
 and model checkpoints were not modified for this publication.
+
+## MP3D learning results
+
+- Vision (UnLoc): `mp3d/unloc/` — test 1,427 queries, best epoch 5.
+- Acoustic-only: `mp3d/acoustic_corrected/` — test 1,427 queries, best epoch 4.
+- Metrics, representative RGB, floorplan poses and likelihood; no model weights or raw RIR.
